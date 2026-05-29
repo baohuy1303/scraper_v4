@@ -930,7 +930,7 @@ async def scrape_single_page(
             # Run remaining extractors in parallel
             tasks: dict[str, asyncio.Task] = {
                 "metadata": asyncio.create_task(extract_metadata(page)),
-                "screenshot": asyncio.create_task(page.screenshot(full_page=False)),
+                "screenshot": asyncio.create_task(page.screenshot(full_page=True)),
             }
             if text_mode == "chunked":
                 tasks["text_chunks"] = asyncio.create_task(extract_text_chunked(page))
