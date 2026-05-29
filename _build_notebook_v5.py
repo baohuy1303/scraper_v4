@@ -132,6 +132,7 @@ class PageResult:
     dom_extras: dict[str, Any] | None = None
     asset_candidates: dict[str, Any] | None = None
     nav_links: list[dict[str, str]] | None = None
+    pricing_cards: list[dict[str, Any]] | None = None  # populated on pricing pages
 
 
 # ----------------------------- Media capture ----------------------------- #
@@ -439,6 +440,70 @@ async def extract_asset_candidates(page: Page) -> dict[str, Any]:
     )
 
 
+async def extract_pricing_cards(page: Page) -> list[dict[str, Any]]:
+    """DOM-based pricing plan extractor. Finds pricing card elements and reads
+    plan name, prices, and feature bullets directly — avoids the flat-text
+    table-mangling problem. Returns [] if no recognisable cards found."""
+    return await page.evaluate(
+        r"""
+        () => {
+            // Heuristic: find containers that have both a price-like token and a CTA button.
+            // Covers most SaaS pricing grids (Stripe Checkout style, Tailwind card grids, etc.).
+            const priceRe = /[\$\€\£\¥][\d,]+(\.\d+)?|[\d,]+(\.\d+)?\s*(USD|EUR|GBP)/i;
+            const allDivs = Array.from(document.querySelectorAll('div, section, article, li'));
+
+            const cards = [];
+            for (const el of allDivs) {
+                // Must be reasonably small (a card, not the whole page)
+                if (el.children.length > 30) continue;
+                const text = (el.innerText || '').trim();
+                if (text.length < 20 || text.length > 2000) continue;
+                // Must contain a price token
+                if (!priceRe.test(text)) continue;
+                // Must contain a button or CTA-like link
+                const hasAction = el.querySelector('button, a[href*="sign"], a[href*="get"], a[href*="start"], a[href*="upgrade"]');
+                if (!hasAction) continue;
+
+                // Extract lines, filtering empty ones
+                const lines = text.split('\n').map(l => l.trim()).filter(Boolean);
+
+                // Try to find plan name (first non-price, non-empty short line)
+                let name = null;
+                for (const l of lines) {
+                    if (l.length < 50 && !priceRe.test(l) && !/free|month|year|billed|save|credit|per|most|best|popular|value/i.test(l)) {
+                        name = l;
+                        break;
+                    }
+                }
+                if (!name) continue;
+
+                // Collect price tokens
+                const priceTokens = lines.filter(l => priceRe.test(l));
+
+                // Collect feature bullets (lines that aren't prices, names, or CTAs)
+                const features = lines.filter(l =>
+                    !priceRe.test(l) &&
+                    l !== name &&
+                    l.length > 3 && l.length < 120 &&
+                    !/^(get|sign|start|upgrade|buy|subscribe)/i.test(l) &&
+                    !/^(free forever|most popular|best value|save)/i.test(l)
+                ).slice(0, 10);
+
+                cards.push({ name, price_tokens: priceTokens, features });
+            }
+
+            // Deduplicate by name
+            const seen = new Set();
+            return cards.filter(c => {
+                if (seen.has(c.name)) return false;
+                seen.add(c.name);
+                return true;
+            });
+        }
+        """
+    )
+
+
 async def extract_nav_links(page: Page) -> list[dict[str, str]]:
     """Extract anchor links from nav/header/footer/role=navigation."""
     return await page.evaluate(
@@ -606,19 +671,25 @@ BRAND_DATA_SCHEMA = {
             },
         },
         "key_features": {"type": "array", "items": {"type": "string"}, "description": "Short benefit/feature bullets, distinct from products_services."},
-        "pricing_summary": {"type": ["string", "null"]},
-        "promotional_info": {
-            "type": "object",
-            "properties": {
-                "original_price": {"type": ["string", "null"]},
-                "promo_price": {"type": ["string", "null"]},
-                "discount_text": {"type": ["string", "null"], "description": "E.g. '50% off', 'Buy 1 Get 1'."},
-                "urgency_text": {"type": ["string", "null"], "description": "E.g. 'Limited time', 'Ends Friday'."},
-                "valid_until": {"type": ["string", "null"]},
+        "pricing_summary": {"type": ["string", "null"], "description": "1-3 sentence human-readable overview of the pricing model."},
+        "pricing_tiers": {
+            "type": "array",
+            "description": "One entry per plan/tier. Extract exactly what the page shows — do not convert currencies.",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "name": {"type": "string", "description": "Plan name, e.g. 'Basic', 'Creator', 'Pro', 'Business'."},
+                    "monthly_price": {"type": ["string", "null"], "description": "Price when billed monthly, e.g. '$39/mo'. Null if not shown."},
+                    "annual_price_per_month": {"type": ["string", "null"], "description": "Effective monthly price on annual billing, e.g. '$25/mo'. Null if not shown."},
+                    "annual_total": {"type": ["string", "null"], "description": "Total charged annually, e.g. '$300/year'. Null if not shown."},
+                    "credits": {"type": ["string", "null"], "description": "Credits included, e.g. '300,000 / year' or '400'."},
+                    "highlights": {"type": "array", "items": {"type": "string"}, "description": "Key differentiating features for this tier."},
+                },
+                "required": ["name", "monthly_price", "annual_price_per_month", "annual_total", "credits", "highlights"],
+                "additionalProperties": False,
             },
-            "required": ["original_price", "promo_price", "discount_text", "urgency_text", "valid_until"],
-            "additionalProperties": False,
         },
+        "pricing_currency": {"type": ["string", "null"], "description": "Currency symbol or code detected on the pricing page, e.g. 'USD', '$', '€'. Helps flag geo-IP currency mismatches."},
         "target_customer": {"type": ["string", "null"]},
         "value_prop": {"type": ["string", "null"]},
         "tone_voice": {"type": ["string", "null"], "description": "Tone descriptors, e.g. 'playful, technical, premium'."},
@@ -655,10 +726,10 @@ BRAND_DATA_SCHEMA = {
     },
     "required": [
         "company_name", "what_they_do", "tagline", "hero_copy", "industry",
-        "products_services", "key_features", "pricing_summary", "promotional_info",
-        "target_customer", "value_prop", "tone_voice", "mood_descriptors",
-        "brand_origin", "trust_signals", "testimonials", "faqs", "common_phrases",
-        "competitors_mentioned", "calls_to_action",
+        "products_services", "key_features", "pricing_summary", "pricing_tiers",
+        "pricing_currency", "target_customer", "value_prop", "tone_voice",
+        "mood_descriptors", "brand_origin", "trust_signals", "testimonials",
+        "faqs", "common_phrases", "competitors_mentioned", "calls_to_action",
     ],
     "additionalProperties": False,
 }
@@ -688,6 +759,7 @@ async def llm_extract_brand_data(
     text_for_llm: str,
     homepage_metadata: dict[str, Any],
     dom_extras: dict[str, Any],
+    pricing_cards: list[dict[str, Any]],
     client: AsyncOpenAI,
 ) -> dict[str, Any]:
     start = time.time()
@@ -698,12 +770,24 @@ async def llm_extract_brand_data(
     if len(structured_str) > 8000:
         structured_str = structured_str[:8000] + "\n...[truncated]"
 
+    pricing_section = ""
+    if pricing_cards:
+        pricing_section = (
+            f"\n\n## Pricing cards (DOM-extracted — use this as the authoritative source for "
+            f"pricing_tiers and pricing_currency; the page text may have garbled table data)\n"
+            f"{json.dumps(pricing_cards, indent=2)}"
+        )
+
     prompt = (
         "Extract structured brand data from the following content. The content comes from multiple "
         "pages of the same website — each page is preceded by a '## SOURCE: <url>' header. "
         "Synthesize across pages; do not invent details. Use null for unknown string fields and [] for unknown list fields.\n\n"
+        "For pricing_tiers: use the '## Pricing cards' section if present — it is DOM-extracted and "
+        "more accurate than the flat page text. Capture prices exactly as shown (do not convert currencies). "
+        "Set pricing_currency to the currency symbol or code you see (e.g. '$', '€', 'USD').\n\n"
         f"## Homepage metadata\n{json.dumps(homepage_metadata, indent=2)}\n\n"
-        f"## Structured data (JSON-LD from homepage)\n{structured_str}\n\n"
+        f"## Structured data (JSON-LD from homepage)\n{structured_str}"
+        f"{pricing_section}\n\n"
         f"## Page content\n{text_for_llm}"
     )
 
@@ -849,6 +933,8 @@ async def scrape_single_page(
             if is_homepage:
                 tasks["dom_extras"] = asyncio.create_task(extract_dom_extras(page))
                 tasks["nav_links"] = asyncio.create_task(extract_nav_links(page))
+            if "pricing" in url.lower():
+                tasks["pricing_cards"] = asyncio.create_task(extract_pricing_cards(page))
 
             gathered = await asyncio.gather(*tasks.values(), return_exceptions=True)
             keyed = dict(zip(tasks.keys(), gathered))
@@ -889,6 +975,9 @@ async def scrape_single_page(
                 result.dom_extras = de if isinstance(de, dict) else {}
                 nl = keyed.get("nav_links")
                 result.nav_links = nl if isinstance(nl, list) else []
+            pc = keyed.get("pricing_cards")
+            if isinstance(pc, list):
+                result.pricing_cards = pc
 
         try:
             await asyncio.wait_for(
@@ -1120,11 +1209,18 @@ async def scrape(
         homepage_metadata = homepage_result.metadata or {}
         homepage_dom_extras = homepage_result.dom_extras or {}
 
+        # Collect pricing cards from any pricing page crawled
+        all_pricing_cards: list[dict[str, Any]] = []
+        for p in successful:
+            if p.pricing_cards:
+                all_pricing_cards.extend(p.pricing_cards)
+
         llm_tasks: dict[str, asyncio.Task] = {}
         if llm_extract and openai_client is not None and text_for_llm:
             llm_tasks["brand"] = asyncio.create_task(
                 llm_extract_brand_data(
-                    text_for_llm, homepage_metadata, homepage_dom_extras, openai_client
+                    text_for_llm, homepage_metadata, homepage_dom_extras,
+                    all_pricing_cards, openai_client
                 )
             )
         if multimodal and openai_client is not None:
@@ -1262,20 +1358,24 @@ async def _fetch_sitemap_wrapper(url: str) -> list[str]:
 CELL_EXAMPLE = '''# Don't need these 2 lines when on local python
 import nest_asyncio
 nest_asyncio.apply()
+import asyncio
 
 url = "https://magichour.ai"
 
-# Full v5 run: 5 pages crawled, brand + visual LLM, all screenshots
-res = await scrape(
-    url,
-    text_mode="raw",       # "raw" or "chunked"
-    llm_extract=True,
-    multimodal=True,       # ON by default in v5
-    max_pages=5,           # 1 = single-page v4-style behavior
-)
+async def main():
+    # Full v5 run: 5 pages crawled, brand + visual LLM, all screenshots
+    res = await scrape(
+        url,
+        text_mode="raw",       # "raw" or "chunked"
+        llm_extract=True,
+        multimodal=True,       # ON by default in v5
+        max_pages=5,           # 1 = single-page v4-style behavior
+    )
 
-# Quick look at timings:
-print(res["timings"])
+    # Quick look at timings:
+    print(res["timings"])
+
+asyncio.run(main())
 '''
 
 CELL_BENCHMARK = '''# @title Benchmark — compare across test URLs
