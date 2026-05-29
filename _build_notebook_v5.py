@@ -42,7 +42,7 @@ BATCH_SIZE = 50
 MIN_FILE_SIZE = 1500
 
 PAGE_LOAD_WAIT = 2000
-PAGE_TIMEOUT_CAP_MS = 40000  # per-page hard cap; timed_out flag set if hit
+PAGE_TIMEOUT_CAP_MS = 60000  # per-page hard cap; timed_out flag set if hit
 
 LLM_MODEL = "gpt-5.4-mini"
 
@@ -275,6 +275,10 @@ async def on_response(
             DownloadTask(url, filepath, body, resource_type, filename)
         )
     except Exception as e:
+        msg = str(e)
+        # Quiet down expected races when a page closes mid-capture
+        if "Target page" in msg or "Target closed" in msg or "evicted" in msg:
+            return
         console.print(f"[dim red]Failed to capture {response.url}:[/dim red] {e}")
 
 
@@ -908,7 +912,9 @@ async def scrape_single_page(
         load_start = time.time()
 
         async def _load_and_extract() -> None:
-            await page.goto(url, wait_until="domcontentloaded", timeout=timeout)
+            # Use PAGE_TIMEOUT_CAP_MS as the Playwright goto timeout so the outer
+            # asyncio.wait_for is the single deadline — not two competing timers.
+            await page.goto(url, wait_until="domcontentloaded", timeout=PAGE_TIMEOUT_CAP_MS)
             await page.wait_for_timeout(PAGE_LOAD_WAIT)
 
             # Capture above-fold assets BEFORE scrolling so viewport is at top
@@ -990,6 +996,12 @@ async def scrape_single_page(
                 f"[yellow]⚠ [{label}] hit {PAGE_TIMEOUT_CAP_MS/1000:.0f}s cap — "
                 f"saving whatever was captured[/yellow]"
             )
+            # Stop accepting new responses now so we don't strand handlers when
+            # the page is closed. (The finally block also does this defensively.)
+            try:
+                page.remove_listener("response", handle_response)
+            except Exception:
+                pass
 
         # Save screenshot if we got one (even on timeout, partial data is kept)
         if result.screenshot_bytes is not None:
@@ -1411,40 +1423,43 @@ def field_fill_rate(brand: dict | None) -> str:
 async def benchmark():
     rows = []
     for label, url in TEST_URLS:
-        for max_pages in (1, 5):
-            start = time.time()
-            try:
-                res = await scrape(
-                    url,
-                    text_mode="raw",
-                    llm_extract=True,
-                    multimodal=True,
-                    max_pages=max_pages,
-                )
-                rows.append({
-                    "site": label,
-                    "pages": max_pages,
-                    "total_ms": res["timings"].get("total_ms"),
-                    "imgs": res["images_count"],
-                    "vids": res["videos_count"],
-                    "brand_filled": field_fill_rate(res.get("brand_data")),
-                    "visual": "yes" if res.get("visual_data") else "no",
-                    "err": "",
-                })
-            except Exception as e:
-                rows.append({
-                    "site": label, "pages": max_pages, "total_ms": "-",
-                    "imgs": "-", "vids": "-", "brand_filled": "-",
-                    "visual": "-", "err": str(e)[:60],
-                })
+        start = time.time()
+        try:
+            res = await scrape(
+                url,
+                text_mode="raw",
+                llm_extract=True,
+                multimodal=True,
+                max_pages=5,
+            )
+            pages = res.get("pages", [])
+            ok_pages = sum(1 for p in pages if p.get("status") == "ok")
+            timed_out_n = sum(1 for p in pages if p.get("timed_out"))
+            rows.append({
+                "site": label,
+                "total_ms": res["timings"].get("total_ms"),
+                "pages_ok": f"{ok_pages}/{len(pages)}",
+                "timed_out": timed_out_n,
+                "imgs": res["images_count"],
+                "vids": res["videos_count"],
+                "brand_filled": field_fill_rate(res.get("brand_data")),
+                "visual": "yes" if res.get("visual_data") else "no",
+                "err": "",
+            })
+        except Exception as e:
+            rows.append({
+                "site": label, "total_ms": "-", "pages_ok": "-", "timed_out": "-",
+                "imgs": "-", "vids": "-", "brand_filled": "-",
+                "visual": "-", "err": str(e)[:60],
+            })
 
     table = Table(title="scraper_v5 benchmark")
-    for col in ("site", "pages", "total_ms", "imgs", "vids", "brand_filled", "visual", "err"):
+    for col in ("site", "total_ms", "pages_ok", "timed_out", "imgs", "vids", "brand_filled", "visual", "err"):
         table.add_column(col)
     for r in rows:
         table.add_row(
-            r["site"], str(r["pages"]), str(r["total_ms"]), str(r["imgs"]),
-            str(r["vids"]), r["brand_filled"], r["visual"], r["err"],
+            r["site"], str(r["total_ms"]), str(r["pages_ok"]), str(r["timed_out"]),
+            str(r["imgs"]), str(r["vids"]), r["brand_filled"], r["visual"], r["err"],
         )
     console.print(table)
 
