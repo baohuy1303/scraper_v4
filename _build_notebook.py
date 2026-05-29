@@ -586,6 +586,8 @@ async def scrape(
     metadata: dict[str, Any] = {"name": "extract_metadata", "data": {}}
     screenshot_path = session_dir / "screenshot.png"
     screenshot_bytes: bytes | None = None
+    screenshot_save_task: asyncio.Task | None = None
+    text_for_json: list[str] = []
 
     llm_tasks: dict[str, asyncio.Task] = {}
 
@@ -650,10 +652,35 @@ async def scrape(
                     if c.get("text"):
                         parts.append(c["text"])
                 text_for_llm = "\n\n".join(parts)
-                text_for_json: list[str] = parts  # flat list for `text` field
+                text_for_json = parts  # flat list for `text` field
             else:
                 text_for_llm = "\n\n".join(text_data.get("data", []))
                 text_for_json = text_data.get("data", [])
+
+            # Stop accepting new responses, drain handlers in flight BEFORE the
+            # browser context closes (otherwise response.body() raises
+            # "Target page closed"). We loop because more events can fire during
+            # the drain.
+            try:
+                page.remove_listener("response", handle_response)
+            except Exception as e:
+                console.print(
+                    f"[dim yellow]Could not remove response listener: {e}[/dim yellow]"
+                )
+
+            drain_start = time.time()
+            drain_budget_s = 3.0
+            while pending_responses:
+                if time.time() - drain_start > drain_budget_s:
+                    console.print(
+                        f"[dim yellow]Drain budget hit; {len(pending_responses)} response handler(s) still pending[/dim yellow]"
+                    )
+                    break
+                await asyncio.gather(
+                    *list(pending_responses), return_exceptions=True
+                )
+                # Let any just-fired events register their tasks before re-checking
+                await asyncio.sleep(0.05)
 
             # Kick off LLM calls in parallel with media-download drain
             if llm_extract and openai_client is not None:
@@ -675,21 +702,11 @@ async def scrape(
                 "error": str(e),
             }
             metadata = {"name": "extract_metadata", "data": {}, "error": str(e)}
-            text_for_json = []
-            screenshot_save_task = None
         finally:
-            # Drain in-flight response handlers BEFORE the browser context exits
-            # so response bodies are not evicted (v3 bug).
-            if pending_responses:
-                console.print(
-                    f"[cyan]Waiting for {len(pending_responses)} in-flight response handlers...[/cyan]"
-                )
-                await asyncio.gather(*list(pending_responses), return_exceptions=True)
-
             console.print("[cyan]Waiting for all downloads to complete...[/cyan]")
             await download_queue.join()
 
-            if "screenshot_save_task" in locals() and screenshot_save_task:
+            if screenshot_save_task is not None:
                 try:
                     await screenshot_save_task
                     console.print("[dim green]✓ Screenshot saved[/dim green]")
