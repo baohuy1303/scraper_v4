@@ -42,6 +42,7 @@ BATCH_SIZE = 50
 MIN_FILE_SIZE = 1500
 
 PAGE_LOAD_WAIT = 2000
+PAGE_TIMEOUT_CAP_MS = 40000  # per-page hard cap; timed_out flag set if hit
 
 LLM_MODEL = "gpt-5.4-mini"
 
@@ -126,6 +127,7 @@ class PageResult:
     screenshot_bytes: bytes | None = None
     screenshot_path: Path | None = None
     load_ms: int | None = None
+    timed_out: bool = False
     # Homepage-only extras
     dom_extras: dict[str, Any] | None = None
     asset_candidates: dict[str, Any] | None = None
@@ -820,71 +822,87 @@ async def scrape_single_page(
         page.on("response", handle_response)
 
         load_start = time.time()
-        await page.goto(url, wait_until="domcontentloaded", timeout=timeout)
-        await page.wait_for_timeout(PAGE_LOAD_WAIT)
-        await adaptive_scroll(page)
+
+        async def _load_and_extract() -> None:
+            await page.goto(url, wait_until="domcontentloaded", timeout=timeout)
+            await page.wait_for_timeout(PAGE_LOAD_WAIT)
+
+            # Capture above-fold assets BEFORE scrolling so viewport is at top
+            if is_homepage:
+                result.asset_candidates = await extract_asset_candidates(page)
+
+            await adaptive_scroll(page)
+            try:
+                await page.wait_for_load_state("networkidle", timeout=2000)
+            except Exception:
+                pass
+
+            # Run remaining extractors in parallel
+            tasks: dict[str, asyncio.Task] = {
+                "metadata": asyncio.create_task(extract_metadata(page)),
+                "screenshot": asyncio.create_task(page.screenshot(full_page=False)),
+            }
+            if text_mode == "chunked":
+                tasks["text_chunks"] = asyncio.create_task(extract_text_chunked(page))
+            else:
+                tasks["text_raw"] = asyncio.create_task(extract_text_raw(page))
+            if is_homepage:
+                tasks["dom_extras"] = asyncio.create_task(extract_dom_extras(page))
+                tasks["nav_links"] = asyncio.create_task(extract_nav_links(page))
+
+            gathered = await asyncio.gather(*tasks.values(), return_exceptions=True)
+            keyed = dict(zip(tasks.keys(), gathered))
+
+            # Metadata
+            md = keyed.get("metadata")
+            result.metadata = md if isinstance(md, dict) else {}
+
+            # Screenshot bytes
+            sb = keyed.get("screenshot")
+            if isinstance(sb, (bytes, bytearray)):
+                result.screenshot_bytes = bytes(sb)
+
+            # Text
+            if text_mode == "chunked":
+                chunks = keyed.get("text_chunks")
+                if isinstance(chunks, list):
+                    result.text_chunks = chunks
+                    parts: list[str] = []
+                    for c in chunks:
+                        if not isinstance(c, dict):
+                            continue
+                        if c.get("heading"):
+                            parts.append(f"## {c['heading']}")
+                        if c.get("text"):
+                            parts.append(c["text"])
+                    result.text_for_json = parts
+                    result.text_for_llm = "\n\n".join(parts)
+            else:
+                raw = keyed.get("text_raw")
+                if isinstance(raw, list):
+                    result.text_raw = raw
+                    result.text_for_json = raw
+                    result.text_for_llm = "\n\n".join(raw)
+
+            if is_homepage:
+                de = keyed.get("dom_extras")
+                result.dom_extras = de if isinstance(de, dict) else {}
+                nl = keyed.get("nav_links")
+                result.nav_links = nl if isinstance(nl, list) else []
+
         try:
-            await page.wait_for_load_state("networkidle", timeout=2000)
-        except Exception:
-            pass
+            await asyncio.wait_for(
+                _load_and_extract(),
+                timeout=PAGE_TIMEOUT_CAP_MS / 1000,
+            )
+        except asyncio.TimeoutError:
+            result.timed_out = True
+            console.print(
+                f"[yellow]⚠ [{label}] hit {PAGE_TIMEOUT_CAP_MS/1000:.0f}s cap — "
+                f"saving whatever was captured[/yellow]"
+            )
 
-        # Run extractors. Different set for homepage vs secondary.
-        tasks: dict[str, asyncio.Task] = {
-            "metadata": asyncio.create_task(extract_metadata(page)),
-            "screenshot": asyncio.create_task(page.screenshot(full_page=False)),
-        }
-        if text_mode == "chunked":
-            tasks["text_chunks"] = asyncio.create_task(extract_text_chunked(page))
-        else:
-            tasks["text_raw"] = asyncio.create_task(extract_text_raw(page))
-        if is_homepage:
-            tasks["dom_extras"] = asyncio.create_task(extract_dom_extras(page))
-            tasks["asset_candidates"] = asyncio.create_task(extract_asset_candidates(page))
-            tasks["nav_links"] = asyncio.create_task(extract_nav_links(page))
-
-        gathered = await asyncio.gather(*tasks.values(), return_exceptions=True)
-        keyed = dict(zip(tasks.keys(), gathered))
-
-        # Metadata
-        md = keyed.get("metadata")
-        result.metadata = md if isinstance(md, dict) else {}
-
-        # Screenshot bytes
-        sb = keyed.get("screenshot")
-        if isinstance(sb, (bytes, bytearray)):
-            result.screenshot_bytes = bytes(sb)
-
-        # Text — both raw and chunked-flattened populate text_for_json / text_for_llm
-        if text_mode == "chunked":
-            chunks = keyed.get("text_chunks")
-            if isinstance(chunks, list):
-                result.text_chunks = chunks
-                parts: list[str] = []
-                for c in chunks:
-                    if not isinstance(c, dict):
-                        continue
-                    if c.get("heading"):
-                        parts.append(f"## {c['heading']}")
-                    if c.get("text"):
-                        parts.append(c["text"])
-                result.text_for_json = parts
-                result.text_for_llm = "\n\n".join(parts)
-        else:
-            raw = keyed.get("text_raw")
-            if isinstance(raw, list):
-                result.text_raw = raw
-                result.text_for_json = raw
-                result.text_for_llm = "\n\n".join(raw)
-
-        if is_homepage:
-            de = keyed.get("dom_extras")
-            result.dom_extras = de if isinstance(de, dict) else {}
-            ac = keyed.get("asset_candidates")
-            result.asset_candidates = ac if isinstance(ac, dict) else {}
-            nl = keyed.get("nav_links")
-            result.nav_links = nl if isinstance(nl, list) else []
-
-        # Save screenshot
+        # Save screenshot if we got one (even on timeout, partial data is kept)
         if result.screenshot_bytes is not None:
             screenshots_dir.mkdir(parents=True, exist_ok=True)
             sp = screenshots_dir / f"{label}.png"
@@ -893,7 +911,8 @@ async def scrape_single_page(
             result.screenshot_path = sp
 
         result.load_ms = int((time.time() - load_start) * 1000)
-        console.print(f"[dim green]✓ [{label}] {result.load_ms}ms[/dim green]")
+        flag = " [TIMED OUT]" if result.timed_out else ""
+        console.print(f"[dim green]✓ [{label}] {result.load_ms}ms{flag}[/dim green]")
 
     except Exception as e:
         result.status = "failed"
@@ -1166,12 +1185,14 @@ async def scrape(
 
     # Build result JSON
     pages_json = []
+    timed_out_pages = []
     for p in all_pages:
         entry = {
             "url": p.url,
             "is_homepage": p.is_homepage,
             "status": p.status,
             "load_ms": p.load_ms,
+            "timed_out": p.timed_out,
         }
         if p.status == "ok":
             entry["text"] = p.text_for_json
@@ -1181,6 +1202,8 @@ async def scrape(
         if p.error:
             entry["error"] = p.error
         pages_json.append(entry)
+        if p.timed_out:
+            timed_out_pages.append(p.url)
 
     result_data = {
         "url": url,
@@ -1194,6 +1217,8 @@ async def scrape(
             "timeout": timeout,
         },
         "pages": pages_json,
+        "any_timed_out": len(timed_out_pages) > 0,
+        "timed_out_pages": timed_out_pages,
         "crawl_meta": crawl_meta,
         "images": captured_files["images"],
         "videos": captured_files["videos"],

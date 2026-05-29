@@ -1,0 +1,1098 @@
+{
+  "url": "https://magichour.ai",
+  "timestamp": "20260529_023813",
+  "session_dir": "scraped_data/magichour.ai_20260529_023813",
+  "config": {
+    "text_mode": "raw",
+    "llm_extract": true,
+    "multimodal": true,
+    "max_pages": 5,
+    "timeout": 20000
+  },
+  "pages": [
+    {
+      "url": "https://magichour.ai",
+      "is_homepage": true,
+      "status": "ok",
+      "load_ms": 8846,
+      "text": [
+        "Magic Hour\nAI\u00a0Video\nAI\u00a0Image\nAI\u00a0Audio\nPricing\nAPI\nLog In\nSign Up\n- It's Free\nTrusted by 3,397,823+ creators\nCreate AI Videos & Images\nwith 100+ Free Tools\nAccess the best AI models for video and images in one platform. Start creating in seconds. Free to try, no sign up, nothing to install.\nStart Creating Free\nNo credit card required\nFace-Swap-Video\nLip Sync\nImage-to-Video\nText-to-Video\nTalking Photo\nAI Headshot Generator\nAI Image Upscaler\nAI Image Editor\nVideo-to-Video\nAnimation\nBuilt for Creators. Trusted by Teams.\nTrusted by 3M+ creators and 2K+ teams at\nStunning Visuals, Any Style\nCreate cinematic 4K scenes in one click, no cameras, and no crew.\nPublish from Anywhere\nReview, refine, and publish on the go.\nCreate for Free Now\nThe Complete AI Video Generator & Image Editor Platform\nGenerate, edit, upscale, animate, and work from templates: everything you'd usually split across several apps, plus face swap, lip sync, and talking photos built for real projects. One account instead of five subscriptions. Free daily credits; no credit card or download.\nFace Swap\nReplace faces in videos, photos, and GIFs with a single reference image. Realistic skin-tone matching, expression tracking, and multi-person support.\nImage to Video\nAnimate any still image with AI. Upload a photo and add cinematic camera motion, ideal for product ads, social posts, and bringing artwork to life.\nAI Image Editor\nEdit photos with natural-language prompts. Remove objects, swap backgrounds, adjust lighting, and apply creative effects, no Photoshop needed.\nTalking Photo\nMake any portrait talk. Upload a face and an audio clip, and the AI generates a video with synchronized lip movements and natural expressions.\nText to Video\nDescribe a scene and watch it come to life. Converts text prompts into high-quality video clips with customizable aspect ratios and visual styles.\nLip Sync\nSync any face to any audio in any language. Dub content without reshoots, localize videos in minutes, and create viral lip-sync clips.\nAI Video Generator\nYour hub for every AI video tool: text-to-video, image-to-video, face swap, animation, and more. One place to generate any type of video.\nAI Image Generator\nGenerate original images from text across 400+ styles. Product shots, illustrations, anime, concept art, and social graphics in seconds.\nAI Clothes Changer\nVirtually try on outfits with AI. Upload a photo and swap clothing styles, great for e-commerce visualization and fashion content.\nAI Image Upscaler\nSharpen blurry photos, increase resolution up to 4\u00d7, restore old pictures, and add realistic detail, all without losing quality.\nAI Headshot Generator\nProfessional AI headshots from a single selfie. Studio-quality portraits for LinkedIn, team pages, and marketing materials.\nAI GIF Generator\nCreate custom GIFs from text prompts or images. Perfect for memes, reactions, and social media. Generate and share in seconds.\nWho Uses Magic Hour\nShip ads, social clips, and product visuals from one account. Skip the tab shuffle and paying for five separate AI subscriptions.\nContent Creators\nCreate viral face swap videos, AI-generated clips for TikTok and YouTube Shorts, talking photo content, and custom GIFs. Professional-quality content, accessible to every creator.\nMarketing Teams\nScale ad campaigns with image-to-video product demos, A/B test visual assets, and localize content across languages using lip sync and AI voice tools.\nE-Commerce Brands\nGenerate product photography with the AI image generator, swap outfits with the AI clothes changer, and produce video ads, all without a photoshoot.\nAgencies & Studios\nBuild interactive campaigns with face swap at live events, personalize content at scale with the API, and deliver social-ready AI video in minutes.\nDevelopers\nIntegrate face swap, image editing, lip sync, and more into your app with Magic Hour's REST API and official SDKs for Python, Node.js, Go, and Rust.\nEducators & Students\nCreate explainer videos with text-to-video, animate diagrams with image-to-video, and produce educational content without expensive production tools.\nWhy Teams Pick Magic Hour Over a Stack of AI Apps\nRun face swap, lip sync, talking photos, and the rest of your creative stack in one bill, with rollover credits and pricing that doesn't waste what you don't use.\nOne Plan, Every Tool\nVideo, images, editing, and templates under one login and one bill, instead of paying for a separate app for each job.\nFrom Idea to Final File\nGenerate, edit, upscale, add voice, and browse 10,000+ templates in one workflow, without exporting between five different products to finish one asset.\nFace Swap, Lip Sync & Talking Photos\nPolished results for real social and ad content, not a gimmick bolt-on. Try face swap, lip sync, and talking photos on the free tier.\nTry Free: No Sign Up Wall\nUse daily credits before you create an account. Unusually generous free tier; paid plans stay strong value around $10\u201315/mo for serious volume.\nFair Credits, No Lock-In Waste\nCredits roll over every month forever, return on errors and cancels, and you can cancel or downgrade anytime, with transparent pricing without use-it-or-lose-it traps. See plans.\nParallel Generations & Fast Iterations\nQueue several renders at once without hidden concurrency limits, so you can try variations the way real production schedules demand.\nTemplates + One-Click Workflows\nClick-to-create templates and chains that go from idea to polished asset without hopping between products.\nWeb, Mobile & API\nSame capabilities in the browser, on the go, and in your product via our REST API and SDKs, documented and built to handle production traffic, not just demos.\nShips Weekly, Support That Replies\nNew models and features on a weekly cadence. Earn free credits when others use templates you publish. Y Combinator-backed, founder-led support that answers fast.\nFrequently Asked Questions\nWhat is Magic Hour?\nMagic Hour is a free online AI video generator and AI image editor that helps creators, marketers, and developers produce professional-quality content in seconds. With 100+ AI-powered tools, including face swap, image-to-video, AI image editor, lip sync, and more. You can create studio-grade videos and images entirely in your browser.\nIs Magic Hour free to use?\nYes. Magic Hour offers free daily credits that let you create AI videos and edit images at no cost. You can access popular tools like face swap, AI image editor, lip sync, talking photo, AI GIF generator, and AI image upscaler without a credit card. Paid plans are available for creators and teams who need higher volume or premium features.\nHow does the AI video generator work?\nMagic Hour's AI video generator supports multiple workflows: type a text prompt to generate a video from scratch (text-to-video), upload a photo to animate it (image-to-video), restyle existing footage (video-to-video), or create stop-motion animations. Each tool runs entirely in your browser and most videos are ready within seconds.\nCan I generate images with AI on Magic Hour?\nAbsolutely. Magic Hour's AI image generator creates original images from text prompts across a wide range of styles: photorealistic, illustration, anime, concept art, and more. You can also use the AI image editor to modify existing images using natural-language instructions.\nHow does the face swap video tool work?\nMagic Hour's AI face swap lets you replace a face in any video with another face using just a single reference photo. The AI automatically handles alignment, skin tone matching, lighting, and expression tracking to produce realistic results. You can also swap faces in photos, GIFs, and multi-person group shots, all for free.\nWhat AI tools does Magic Hour offer beyond video and image generation?\nBeyond the AI video generator and AI image generator, Magic Hour includes: lip sync (sync any video with audio), talking photo (make still images speak), AI headshot generator, AI image upscaler, AI clothes changer, AI GIF generator, voice cloner, voice generator, and more: over 100 tools in total.\nDoes Magic Hour have an API for developers?\nYes. Magic Hour provides a REST API with official SDKs for Python, Node.js, Go, and Rust. You can programmatically generate videos, images, and audio, from face swaps and text-to-video to image upscaling and voice cloning. Usage-based pricing and a 99.9% uptime SLA make it production-ready at any scale.\nDo I need to download any software to use Magic Hour?\nNo. Magic Hour runs entirely in your web browser. There is nothing to install or configure. Sign up, choose a tool, and start creating immediately. Your projects are saved in the cloud, so you can access them from any device.\nWhat makes Magic Hour different from other AI video generators?\nMagic Hour combines over 100 AI video, image, and audio tools in one unified platform. Most competitors offer only a handful. It's trusted by 3M+ creators and 2K+ teams, backed by Y Combinator, and used by businesses worldwide. With free daily credits, browser-based access, 10,000+ templates, and a production-ready API, Magic Hour is built for both casual creators and enterprise workflows.\nCan I use Magic Hour for commercial projects?\nYes. Content you create with Magic Hour can be used in commercial projects, marketing campaigns, social media, advertisements, and more. Paid plans provide additional credits and premium features for professional and team use.\nHow does the AI image generator work?\nMagic Hour's AI image generator creates original images from text prompts using state-of-the-art diffusion models. Describe what you want: a product photo, character illustration, social media graphic, or abstract artwork. The AI produces it in seconds. Choose from 400+ styles including photorealistic, anime, and concept art.\nWhat is the best free AI photo editor online?\nMagic Hour offers a free AI photo editor that lets you edit images using natural-language prompts instead of complex menus. Remove objects, swap backgrounds, adjust lighting, enhance skin detail, or add creative effects. It works on any device in your browser, requires no sign up to try, and is trusted by 3M+ creators worldwide.\nCan I create AI videos from text prompts on Magic Hour?\nYes. Magic Hour's text-to-video AI generator converts written scene descriptions into polished video clips. Type a prompt and the AI produces a video in seconds. Beyond text-to-video, Magic Hour also supports image-to-video, face swap video, lip sync, and 100+ other AI video tools, all free to try with daily credits.\nHave more questions? Visit our full FAQ or contact support.\nStep Into the Magic\nGenerate Your First Video\nJoin the Discord\nCOMPANY\nPricing\nAbout\nBlog\nAPI\nTemplates\nModel Leaderboards\nPrivacy Policy\nTerms of Service\nVIDEO PRODUCTS\nAI UGC Ad Generator\nAI Video Expander\nAI Video Extender\nAI Video Upscaler\nAnimation\nAudio-to-Video\nFace Swap Video\nImage-to-Video\nLip Sync\nSubtitle Generator\nTalking Photo\nText-to-Video\nVideo-to-Video\nIMAGE PRODUCTS\nAI Clothes Changer\nAI Face Editor\nAI GIF Generator\nAI Headshot Generator\nAI Image Editor\nAI Image Expander\nAI Image Generator\nAI Image Upscaler\nAI Meme Generator\nAI Selfie Generator\nAI Storyboard Generator\nBackground Remover\nBody Swap\nFace Swap Photo\nHead Swap\nPhoto Colorizer\nQR Code Generator\nAUDIO PRODUCTS\nAI Music Generator\nVideo-to-Audio\nVoice Changer\nVoice Cloner\nVoice Generator\nSUPPORT\nCommunity\nFAQ\nContact Us\nStatus\nSOCIAL\nsupport@magichour.ai\nBacked by\nCombinator\n\n\u00a9 2026 Magic Hour AI, Inc.\n\nInsufficient credits"
+      ],
+      "text_chunks": null,
+      "metadata": {
+        "title": "AI Video Generator, Image Generator & Editor - 100+ Free Online AI Tools | Magic Hour",
+        "description": "100+ AI tools for video and images in one place: face swap, lip sync, talking photos, templates, generation, and editing. Credits roll over; refunds on errors. Try free without sign-up. Web, mobile, and API. Trusted by 3M+ creators.",
+        "og_images": [
+          "https://magichour.ai/logo-social.png"
+        ],
+        "og_image": "https://magichour.ai/logo-social.png"
+      },
+      "screenshot": "scraped_data/magichour.ai_20260529_023813/screenshots/homepage.png"
+    },
+    {
+      "url": "https://magichour.ai/pricing",
+      "is_homepage": false,
+      "status": "ok",
+      "load_ms": 27022,
+      "text": [
+        "Magic Hour\nAI\u00a0Video\nAI\u00a0Image\nAI\u00a0Audio\nPricing\nAPI\nLog In\nSign Up\n- It's Free\nPlans and Pricing\nCreate videos, images,\n\n\nand audio with one AI plan\nGet more credits, higher resolution exports, faster queues,\n\n\nand commercial rights in one plan.\nMonthly\nYearly\n4 months free\nSave 33% annually. Need more credits? View credit packs\nBasic\nStart creating at no cost\nFree\nStart free - no credit card required\nSign up for free\nIdentical to the monthly version\n400 credits\n17 seconds of video\n80 images\nAPI Access\nLimited\nHigh resolution\n576px\nAccess to all tools\nWatermark-free exports\nUpload larger files\n200MB\nCommercial use\nSubmit templates & earn credits\nPriority queue\nPriority support\n-33%\nCreator\nFor social content and everyday creation\n\u20ac13\n\u20ac8.67\n\u20ac104 billed annually\nGet Creator\nYou save \u20ac52/year vs monthly\n120,000 credits per year\n1.4 hours of video\n24,000 images\nAPI Access\nFull\nHigh resolution\n1024px\nAccess to all tools\nWatermark-free exports\nUpload larger files\n2GB\nCommercial use\nSubmit templates & earn credits\nPriority queue\nPriority support\nMost Popular\n-36%\nPro\nFor professional work and frequent production\n\u20ac36\n\u20ac23\n\u20ac276 billed annually\nGet Pro\nYou save \u20ac156/year vs monthly\n300,000 credits per year\n3.5 hours of video\n60,000 images\nAPI Access\nFull\nHigh resolution\n1472px\nAccess to all tools\nWatermark-free exports\nUpload larger files\n5GB\nCommercial use\nSubmit templates & earn credits\nPriority queue\nPriority support\nBest Value\n-33%\nBusiness\nFor teams, agencies, and high-volume content\n\u20ac84\n\u20ac56\n\u20ac672 billed annually\nGet Business\nYou save \u20ac336/year vs monthly\n840,000 credits per year\n9.7 hours of video\n168,000 images\nAPI Access\nFull\nHigh resolution\n4K\nAccess to all tools\nWatermark-free exports\nUpload larger files\n10GB\nCommercial use\nSubmit templates & earn credits\nPriority queue\nPriority support\nTrusted by teams at\nCompare Plans\nAnnual\n33% OFF\nBasic\nFree\nStart free - no credit card required\nSign up for free\nCreator\n\u20ac13\n\u20ac8.67 / month\n\u20ac104 billed annually\nGet Creator\nMost Popular\nPro\n\u20ac36\n\u20ac23 / month\n\u20ac276 billed annually\nGet Pro\nBest Value\nBusiness\n\u20ac84\n\u20ac56 / month\n\u20ac672 billed annually\nGet Business\nIncluded in Your Plan\nCredits\nRemove Watermark\nExport Quality\nUpload File Size\nCommercial Use\nSubmit templates & earn credits\nPriority queue\nPriority support\nAPI Access\n400\n576px\n200MB\nLimited\n120,000 / year\n1024px\n2GB\n300,000 / year\n1472px\n5GB\n840,000 / year\n4K\n10GB\nAI Video Tools\nFace Swap Video\nImage-to-Video\nLip Sync\nTalking Photo\nText-to-Video\nVideo-to-Video\nAnimation\nSubtitle Generator\nAI Video Extender\nAudio-to-Video\nAI Video Expander\nAI Video Upscaler\nAI UGC Ad Generator\n17 seconds\n17 seconds\n17 seconds\n8 seconds\n17 seconds\n8 seconds\n17 seconds\n1 minutes\n17 seconds\n17 seconds\n17 seconds\n1.4 hours\n1.4 hours\n1.4 hours\n42 minutes\n1.4 hours\n42 minutes\n1.4 hours\n6.9 hours\n1.4 hours\n1.4 hours\n1.4 hours\n1.4 hours\n6 minutes\n3.5 hours\n3.5 hours\n3.5 hours\n1.7 hours\n3.5 hours\n1.7 hours\n3.5 hours\n17.4 hours\n3.5 hours\n3.5 hours\n3.5 hours\n3.5 hours\n14 minutes\n9.7 hours\n9.7 hours\n9.7 hours\n4.9 hours\n9.7 hours\n4.9 hours\n9.7 hours\n48.6 hours\n9.7 hours\n9.7 hours\n9.7 hours\n9.7 hours\n39 minutes\nAI Image Tools\nFace Swap Photo\nAI Image Editor\nAI Image Generator\nAI Image Upscaler\nAI Clothes Changer\nHead Swap\nBody Swap\nAI Image Expander\nAI Headshot Generator\nAI Face Editor\nBackground Remover\nAI GIF Generator\nAI Selfie Generator\nAI Meme Generator\nPhoto Colorizer\nAI Storyboard Generator\nQR Code Generator\n40 images\n40 images\n80 images\n16 images\n16 images\n40 images\n4 images\n16 images\n8 images\n400 images\n80 images\n8 images\n8 images\n40 images\n40 images\n4 images\nUnlimited\n12,000 images\n12,000 images\n24,000 images\n4,800 images\n4,800 images\n12,000 images\n1,200 images\n4,800 images\n2,400 images\n120,000 images\n24,000 images\n2,400 images\n2,400 images\n12,000 images\n12,000 images\n1,200 images\nUnlimited\n30,000 images\n30,000 images\n60,000 images\n12,000 images\n12,000 images\n30,000 images\n3,000 images\n12,000 images\n6,000 images\n300,000 images\n60,000 images\n6,000 images\n6,000 images\n30,000 images\n30,000 images\n3,000 images\nUnlimited\n84,000 images\n84,000 images\n168,000 images\n33,600 images\n33,600 images\n84,000 images\n8,400 images\n33,600 images\n16,800 images\n840,000 images\n168,000 images\n16,800 images\n16,800 images\n84,000 images\n84,000 images\n8,400 images\nUnlimited\nAI Audio Tools\nVoice Generator\nVoice Cloner\nAI Music Generator\nVoice Changer\nVideo-to-Audio\n7 minutes\n7 minutes\n7 minutes\n7 minutes\n17 seconds\n33.3 hours\n33.3 hours\n33.3 hours\n33.3 hours\n1.4 hours\n83.3 hours\n83.3 hours\n83.3 hours\n83.3 hours\n3.5 hours\n233.3 hours\n233.3 hours\n233.3 hours\n233.3 hours\n9.7 hours\nCredit Pack\nNeed More Credits?\nChoose the package that fits you and keep exploring.\n\n\nNo watermark, credits never expire.\nStarter\n4,000\n\u20ac1 = 466 credits\nBuy for \u20ac8.58\nUp to 2.8 minutes of video\nUp to 800 images\nNo watermark\nMost Popular\n-10%\nStandard\n12,000\n\u20ac1 = 518 credits\nBuy for\n\u20ac25.74\n\u20ac23.17\nUp to 8.3 minutes of video\nUp to 2,400 images\nNo watermark\n-20%\nLarge\n30,000\n\u20ac1 = 582 credits\nBuy for\n\u20ac64.35\n\u20ac51.48\nUp to 20.8 minutes of video\nUp to 6,000 images\nNo watermark\nCredit packs do not come with subscription benefits outside of removal of watermarks.\nFrequently Asked Questions\nAre my generations private?\n\nYes, your generations are private from other users and Magic Hour. We will never access any of your assets without your explicit permission. You have the option to delete the generated asset after completion from our system. Make sure to download it first if you'd like to keep it, as it's deleted forever.\n\nAssets that you upload to our platform, including images, audio, and videos are also private and are deleted within one week.\n\nCan I use my plan for API access?\nYes, we offer API access for all users, with the same features and usage levels in your plan. Check out our API Documentation to learn more. If you need any help with implementation or have questions, please reach out to us on live chat or email us at support@magichour.ai. Our team is happy to assist you with your specific needs.\nDo I own the assets I create?\n\nYes, you retain full ownership, including copyright and intellectual property rights, for all assets you generate. However, only paid users are granted commercial usage rights.\n\nFree users may use generated content for personal, non-commercial purposes only.\n\nCan I get a refund?\nWe offer a one-time refund if your purchase was made within the past 7 days and you have used fewer than 500 credits from the plan you purchased. Credits from free sign-up credits do not count toward this limit. If you have an issue with the product, please contact us in live chat or email us at support@magichour.ai, and we'd be happy to help you find a solution.\nDo I need to enter a credit card to try Magic Hour?\nNo, Magic Hour's Free plan allows you to try our basic features for free. If you'd like to use features not included in the Free plan, or get more credits after you've run out, you can upgrade to a paid plan or purchase more credits.\nDo credits roll over to the next month?\nYes, any unused credits in your balance will roll over to the next month, with no expiration. They are yours forever.\nDo you offer enterprise pricing or plans for teams?\nYes, we offer customized pricing for enterprise customers or teams with large-scale needs. Please contact us at support@magichour.ai to discuss your requirements.\nDoes the pricing include tax?\nPricing excludes tax. If we legally need to collect tax, it will be added at the point of payment with Stripe. If we do not currently charge tax in your country or region, and in the future need to, then this will be added to your recurring bill at that time.\nHow do I cancel my subscription?\nYou can easily cancel your subscription any time in your My Plan page. After canceling, your subscription will end at the end of your billing cycle, and you will not be charged again.\nHow do I get more credits?\n\nAs a free user, you get an initial one-time 400 credits. Each day you visit the Create page, you can also claim an additional 100 free credits regardless of your plan.\n\nAs a paid subscriber, you receive a monthly credit allowance that gives you wider flexibility to use Magic Hour's premium features at your own pace. Importantly, these credits replenish at the beginning of each billing period and will never expire, so you can always save them for when your usage needs increase.\n\nHow do I remove watermarks?\nYou can remove watermarks by purchasing a subscription or credit pack.\nWhat happens if I run out of credits in my paid plan?\n\nWhen you run out of credits, you have three options:\n\nYou can wait for your next billing cycle to start. You can see when your next billing cycle starts in Next Invoice in My Plan.\nYou can purchase credit packs, which are one-time credit purchases in Pricing. This allows you to \"top up\" your plan whenever you run out.\nYou can start a new plan. If you switch from a monthly plan to an annual plan or vice-versa, the plan will start immediately. If you switch from a monthly plan to a different monthly plan or an annual plan to a different annual plan, your plan will start at the end of your billing cycle. However, if you want to start it immediately, you can click Upgrade Now in My Plan.\nWhat happens to my credits if I downgrade my plan?\nIf you downgrade your plan, you will keep all the credits you have, but your monthly allowance will adjust to your new plan's limit at the start of your next billing cycle.\nWhat payment methods do you accept?\n\nWe accept credit cards and debit cards worldwide, including Visa, Mastercard, American Express, Discover, Diners Club, JCB, and China UnionPay.\n\nWe accept other payment options depending on your country and region, including:\n\nWallets: Apple Pay, Cash App Pay, Google Pay, Amazon Pay, Link, Alipay, WeChat Pay\nBank Redirects: Bancontact, EPS, giropay, iDEAL, Prszelewy24\nBuy Now, Pay Later: Affirm, Afterpay/Clearpay, Klarna\n\nWe do not accept PayPal.\n\nWhat support is included with my subscription?\n\nAll users have access to email and live chat support. Paid subscribers receive priority support, with responses typically within 3 hours during business hours (Pacific Time).\n\nWe aim to respond to all other requests within 24 hours. If there's a delay, we might be offline - thanks for your patience while we catch some sleep.\n\nStep Into the Magic\nGenerate Your First Video\nJoin the Discord\nCOMPANY\nPricing\nAbout\nBlog\nAPI\nTemplates\nModel Leaderboards\nPrivacy Policy\nTerms of Service\nVIDEO PRODUCTS\nAI UGC Ad Generator\nAI Video Expander\nAI Video Extender\nAI Video Upscaler\nAnimation\nAudio-to-Video\nFace Swap Video\nImage-to-Video\nLip Sync\nSubtitle Generator\nTalking Photo\nText-to-Video\nVideo-to-Video\nIMAGE PRODUCTS\nAI Clothes Changer\nAI Face Editor\nAI GIF Generator\nAI Headshot Generator\nAI Image Editor\nAI Image Expander\nAI Image Generator\nAI Image Upscaler\nAI Meme Generator\nAI Selfie Generator\nAI Storyboard Generator\nBackground Remover\nBody Swap\nFace Swap Photo\nHead Swap\nPhoto Colorizer\nQR Code Generator\nAUDIO PRODUCTS\nAI Music Generator\nVideo-to-Audio\nVoice Changer\nVoice Cloner\nVoice Generator\nSUPPORT\nCommunity\nFAQ\nContact Us\nStatus\nSOCIAL\nsupport@magichour.ai\nBacked by\nCombinator\n\n\u00a9 2026 Magic Hour AI, Inc.\n\nInsufficient credits"
+      ],
+      "text_chunks": null,
+      "metadata": {
+        "title": "Pricing Plans for Creators and Teams | Magic Hour",
+        "description": "Start free - no card required. Plans from $10/mo (annual). Compare Creator, Pro & Business. Watermark-free exports, commercial use, API access.",
+        "og_images": [
+          "https://magichour.ai/logo-social.png"
+        ],
+        "og_image": "https://magichour.ai/logo-social.png"
+      },
+      "screenshot": "scraped_data/magichour.ai_20260529_023813/screenshots/pricing_e9e637.png"
+    },
+    {
+      "url": "https://magichour.ai/about",
+      "is_homepage": false,
+      "status": "ok",
+      "load_ms": 19120,
+      "text": [
+        "Magic Hour\nAI\u00a0Video\nAI\u00a0Image\nAI\u00a0Audio\nPricing\nAPI\nLog In\nSign Up\n- It's Free\nWhere Creativity Meets AI, Magic Happens\nContact Us\nOur Mission\n\nMagic Hour was born from a simple problem: video creation is hard, and most people never start. We wanted to change that.\n\nThe idea was inspired by helping my parents create videos for their hot pot business. Sometimes it took me up to a day to ideate, shoot, and edit a video. When tools like Stable Diffusion came out, I started hacking together ways to generate videos.\n\nWhat began as a side project turned into something bigger. By posting videos from early versions of Magic Hour, we reached over 200 million people on social.\n\nOur mission with Magic Hour is to take what we've experienced and give it to as many people as possible, so anyone can turn their ideas into economic opportunity.\n\nOur Story\n\nWe met in 1997 in China when our moms, who were college roommates and are best friends, introduced us. Our families both immigrated to the US and ended up in Pennsylvania, where we spent time together growing up.\n\nAfter college, David became a Software Engineer and Runbo became a Data Scientist. In 2023, Runbo asked David to help him productize his AI video prototypes, and soon, Magic Hour was born.\n\nMagic Hour is born out of our experiences helping our parents market their small businesses, where we learned how difficult it is to create engaging video content, and our time in tech building apps for millions of creators, consumers, and gamers.\n\nWant to work with us?\n\nWe'd love to hear from you!\n\nContact Us\nStep Into the Magic\nGenerate Your First Video\nJoin the Discord\nCOMPANY\nPricing\nAbout\nBlog\nAPI\nTemplates\nModel Leaderboards\nPrivacy Policy\nTerms of Service\nVIDEO PRODUCTS\nAI UGC Ad Generator\nAI Video Expander\nAI Video Extender\nAI Video Upscaler\nAnimation\nAudio-to-Video\nFace Swap Video\nImage-to-Video\nLip Sync\nSubtitle Generator\nTalking Photo\nText-to-Video\nVideo-to-Video\nIMAGE PRODUCTS\nAI Clothes Changer\nAI Face Editor\nAI GIF Generator\nAI Headshot Generator\nAI Image Editor\nAI Image Expander\nAI Image Generator\nAI Image Upscaler\nAI Meme Generator\nAI Selfie Generator\nAI Storyboard Generator\nBackground Remover\nBody Swap\nFace Swap Photo\nHead Swap\nPhoto Colorizer\nQR Code Generator\nAUDIO PRODUCTS\nAI Music Generator\nVideo-to-Audio\nVoice Changer\nVoice Cloner\nVoice Generator\nSUPPORT\nCommunity\nFAQ\nContact Us\nStatus\nSOCIAL\nsupport@magichour.ai\nBacked by\nCombinator\n\n\u00a9 2026 Magic Hour AI, Inc.\n\nInsufficient credits"
+      ],
+      "text_chunks": null,
+      "metadata": {
+        "title": "Magic Hour | About Us",
+        "description": "Learn more about Magic Hour, our story, and our mission.",
+        "og_images": [
+          "https://magichour.ai/logo-social.png"
+        ],
+        "og_image": "https://magichour.ai/logo-social.png"
+      },
+      "screenshot": "scraped_data/magichour.ai_20260529_023813/screenshots/about_0df18a.png"
+    },
+    {
+      "url": "https://magichour.ai/faq",
+      "is_homepage": false,
+      "status": "ok",
+      "load_ms": 24981,
+      "text": [
+        "Magic Hour\nAI\u00a0Video\nAI\u00a0Image\nAI\u00a0Audio\nPricing\nAPI\nLog In\nSign Up\n- It's Free\nMagic Hour FAQ: AI Video & Image Tools, Pricing, Credits & Usage\nFrequently Asked Questions\nGENERAL\nGeneral FAQ\nPricing\nVIDEO\nAI Talking Photo\nAnimation\nAuto Subtitle Generator\nFace Swap\nImage-to-Video\nLip Sync\nText-to-Video\nVideo-to-Video\nIMAGE\nAI Clothes Changer\nAI Face Editor\nAI GIF Generator\nAI Headshot Generator\nAI Image Generator\nAI Image Upscaler\nAI Meme Generator\nAI QR Code Generator\nImage Background Remover\nImage-to-Image\nPhoto Colorizer\nCan't find your question?\nContact Us\nGeneral FAQ\nIs Magic Hour free to use?\nWe offer 400 credits for free so you can get to know Magic Hour and create your first videos or images. To create additional content beyond the 400 credits, subscribe to our Creator, Pro, or Business plan or purchase a credit pack.\nHow many credits do I need?\nAs a rule of thumb, take the seconds of video you want and multiply it by its FPS (frames per second). A good starting point is 12 FPS for Animations, 24 FPS for Face Swap and Lip Sync, and 30 FPS for Text-to-Video and Image-to-Video.\nCan I use my videos for commercial purposes?\n\nIf you're a paid user, the videos you create are yours, and you hold full commercial rights.\n\nFree users do not have commercial rights and may only use generated videos for personal, non-commercial purposes.\n\nWhat is a credit?\n\nCredits are your currency on Magic Hour. They're deducted from your balance as you create images and videos.\n\nFor some modes, we charge more because they're more computationally expensive.\n\nWhen you're creating an image or video, we will always tell you exactly how many credits the generation will cost before you click render.\n\nDo my credits roll over each month?\nYes, your credits roll over each month and you will always have access to them. Note that your access to features however is determined by your subscription tier.\nPricing\nAre my generations private?\n\nYes, your generations are private from other users and Magic Hour. We will never access any of your assets without your explicit permission. You have the option to delete the generated asset after completion from our system. Make sure to download it first if you'd like to keep it, as it's deleted forever.\n\nAssets that you upload to our platform, including images, audio, and videos are also private and are deleted within one week.\n\nCan I use my plan for API access?\nYes, we offer API access for all users, with the same features and usage levels in your plan. Check out our API Documentation to learn more. If you need any help with implementation or have questions, please reach out to us on live chat or email us at support@magichour.ai. Our team is happy to assist you with your specific needs.\nDo I own the assets I create?\n\nYes, you retain full ownership, including copyright and intellectual property rights, for all assets you generate. However, only paid users are granted commercial usage rights.\n\nFree users may use generated content for personal, non-commercial purposes only.\n\nCan I get a refund?\nWe offer a one-time refund if your purchase was made within the past 7 days and you have used fewer than 500 credits from the plan you purchased. Credits from free sign-up credits do not count toward this limit. If you have an issue with the product, please contact us in live chat or email us at support@magichour.ai, and we'd be happy to help you find a solution.\nDo I need to enter a credit card to try Magic Hour?\nNo, Magic Hour's Free plan allows you to try our basic features for free. If you'd like to use features not included in the Free plan, or get more credits after you've run out, you can upgrade to a paid plan or purchase more credits.\nDo credits roll over to the next month?\nYes, any unused credits in your balance will roll over to the next month, with no expiration. They are yours forever.\nDo you offer enterprise pricing or plans for teams?\nYes, we offer customized pricing for enterprise customers or teams with large-scale needs. Please contact us at support@magichour.ai to discuss your requirements.\nDoes the pricing include tax?\nPricing excludes tax. If we legally need to collect tax, it will be added at the point of payment with Stripe. If we do not currently charge tax in your country or region, and in the future need to, then this will be added to your recurring bill at that time.\nHow do I cancel my subscription?\nYou can easily cancel your subscription any time in your My Plan page. After canceling, your subscription will end at the end of your billing cycle, and you will not be charged again.\nHow do I get more credits?\n\nAs a free user, you get an initial one-time 400 credits. Each day you visit the Create page, you can also claim an additional 100 free credits regardless of your plan.\n\nAs a paid subscriber, you receive a monthly credit allowance that gives you wider flexibility to use Magic Hour's premium features at your own pace. Importantly, these credits replenish at the beginning of each billing period and will never expire, so you can always save them for when your usage needs increase.\n\nHow do I remove watermarks?\nYou can remove watermarks by purchasing a subscription or credit pack.\nWhat happens if I run out of credits in my paid plan?\n\nWhen you run out of credits, you have three options:\n\nYou can wait for your next billing cycle to start. You can see when your next billing cycle starts in Next Invoice in My Plan.\nYou can purchase credit packs, which are one-time credit purchases in Pricing. This allows you to \"top up\" your plan whenever you run out.\nYou can start a new plan. If you switch from a monthly plan to an annual plan or vice-versa, the plan will start immediately. If you switch from a monthly plan to a different monthly plan or an annual plan to a different annual plan, your plan will start at the end of your billing cycle. However, if you want to start it immediately, you can click Upgrade Now in My Plan.\nWhat happens to my credits if I downgrade my plan?\nIf you downgrade your plan, you will keep all the credits you have, but your monthly allowance will adjust to your new plan's limit at the start of your next billing cycle.\nWhat payment methods do you accept?\n\nWe accept credit cards and debit cards worldwide, including Visa, Mastercard, American Express, Discover, Diners Club, JCB, and China UnionPay.\n\nWe accept other payment options depending on your country and region, including:\n\nWallets: Apple Pay, Cash App Pay, Google Pay, Amazon Pay, Link, Alipay, WeChat Pay\nBank Redirects: Bancontact, EPS, giropay, iDEAL, Prszelewy24\nBuy Now, Pay Later: Affirm, Afterpay/Clearpay, Klarna\n\nWe do not accept PayPal.\n\nWhat support is included with my subscription?\n\nAll users have access to email and live chat support. Paid subscribers receive priority support, with responses typically within 3 hours during business hours (Pacific Time).\n\nWe aim to respond to all other requests within 24 hours. If there's a delay, we might be offline - thanks for your patience while we catch some sleep.\n\nAI Talking Photo\nIs AI talking photo free?\nYes, AI talking photo is free with no sign up required. You get 3 free talking photos per day \u2014 no account needed. Sign up for 400 bonus credits and 100 free credits daily. Upgrade for more credits, priority processing, and advanced features.\nDo I need to sign up for AI talking photo?\nNo. AI talking photo works in your browser with no account, no sign up, and no download. Sign up for free to unlock 400 bonus credits, 100 daily credits, and saved projects.\nHow many faces can I animate per photo?\nCurrently, Magic Hour supports animating one face per photo.\nCan I use AI Talking Photos commercially?\n\nYes, all AI Talking Photos created with Magic Hour can be used commercially by paid users - as long as you own the image and audio used.\n\nThey're ideal for tutorials, explainers, marketing content, and more - with no usage restrictions for paid users.\n\nFree users are limited to personal, non-commercial use.\n\nWhat is an AI Talking Photo?\nAn AI Talking Photo is a digital avatar created from an uploaded image that speaks naturally, based on your provided script. It's ideal for online courses, presentations, marketing videos, and engaging content across multiple platforms.\nWhat is the maximum video length for AI Talking Photos?\nMagic Hour's free AI Talking Photo tool currently supports up to 5 seconds of video in length. For longer videos, sign up for a free account to access extended video durations.\nCan I lip-sync audio to an existing video?\nYes. Magic Hour offers a free Lip Sync Generator that accurately synchronizes audio to the lip movements in your videos, creating realistic lip-synced video content.\nCan I use any image to create a talking photo?\nYou can animate any image with a clearly visible face - including human portraits, cartoons, or animal images. If you're unsure which image to choose, try our preset avatars or create a custom AI avatar using text.\nHow do I make my photo talk free online?\nUpload any portrait photo to Magic Hour, add your audio or text, and click generate. Our free AI talking photo generator creates lifelike talking videos in seconds - no download or signup required to try. Make your photo talk with realistic lip sync and expressions.\nHow do I turn a photo into a talking video?\nUpload your photo, add audio (or use text-to-speech), and generate. Our AI creates photo to talking video in seconds with natural lip sync. Use any portrait - human, cartoon, or animal - to make image to talking video AI free online.\nWhich languages does Magic Hour support for Talking Photos?\nMagic Hour's technology is language-independent and designed to work with all spoken languages. Your talking photo can speak fluently regardless of the language you use.\nAnimation\nIs AI animation free?\nYes, AI animation is free to try with a free account. Sign up to get 400 credits \u2014 no credit card required. Claim 100 bonus credits every day you sign in. Upgrade for more credits, priority processing, and advanced features.\nDo I need to sign up for AI animation?\nYes, a free account is required. Sign up takes seconds \u2014 no credit card needed. You get 400 credits immediately and 100 bonus credits daily.\nWhat is an AI animation generator?\nAn AI animation generator is a tool that creates animated videos from images, text prompts, or audio using artificial intelligence. Magic Hour's free animation generator turns static images into stop-motion style videos that can sync with music. You can animate images in minutes without motion graphics skills.\nHow does the image to animation generator work?\nOur image to animation generator uses your uploaded image as the first frame, then AI adds motion and style to create a short video. You can also add a song for beat-synced visuals or a text prompt to guide the look. Choose art styles and camera effects, then generate and download. No keyframes or complex editing required.\nCan I generate previews of the video?\nNot at the moment, but if you click render, you can see the frames as they render, and cancel at any time and receive all your credits back.\nCan I upload an audio file?\nYes, simply drag and drop or click to upload a manual audio file.\nCan I upload an initial image?\nYes you can! The initial image will be used as the first frame of the video and will influence the remaining visuals. It's highly recommended if you have a style direction in mind.\nAuto Subtitle Generator\nIs auto subtitle generator free?\nYes, auto subtitle generator is free with no sign up required. You get 3 free videos per day \u2014 no account needed. Sign up for 400 bonus credits and 100 free credits daily. Upgrade for more credits, priority processing, and advanced features.\nDo I need to sign up for auto subtitle generator?\nNo. Auto subtitle generator works in your browser with no account, no sign up, and no download. Sign up for free to unlock 400 bonus credits, 100 daily credits, and saved projects.\nWhat is an auto caption generator?\nAn auto caption generator (or auto subtitle generator) is a tool that creates text captions for videos. Subtitles are a video's dialogue in text form, and allow viewers to follow the video with no audio.\nCan subtitles be generated in more than one language at a time?\nYes, our subtitle generator works with over 50 languages, and detects the languages automatically, even within the same video.\nHow can I change the style of my subtitles?\nYou can change the subtitle styles by selecting one of our templates. Access more customization by signing up and using our full auto subtitle generator product.\nHow do I add subtitles to a video?\nSimply upload the video and let our AI do the work for you. Our auto caption generator automatically detects dialogue, transcribes it, and generates the subtitles in seconds.\nHow do I edit my subtitles?\nTo edit your subtitle, use our full subtitle generator product by signing up, which allows you to edit, delete, and add individual words (coming soon).\nFace Swap\nIs face swap free?\nYes, face swap is free with no sign up required. You get 5 free photo face swaps, 3 video face swaps, and 3 GIF face swaps per day \u2014 no account needed. Photo and head swaps are watermark-free. Sign up for 400 bonus credits and 100 free credits daily. Upgrade for priority processing and advanced features.\nDo I need to sign up for face swap?\nNo. Face swap works in your browser with no account, no sign up, and no download. Sign up for free to unlock 400 bonus credits, 100 daily credits, and saved projects.\nIs my content private and secure?\nYes! We take your privacy seriously. Your uploaded photos and videos are stored securely and are only used to process your face swap requests. Your content is never shared with third parties or used for any other purpose without your permission. On the free tool, your uploads and outputs are automatically deleted after 1 day.\nHow many face swaps can I make?\nWith our free tool, you get 5 face swap photos and 3 head swaps (no watermark), plus 3 video and 3 GIF face swaps daily. The dashboard uses a credit system: face swap photos cost 5 credits each, while videos use 1 credit per frame (a 30-second video is approximately 900 credits at standard frame rates).\nCan I upload my own photo or video?\nYes! You can upload your own photos, videos, or use a YouTube URL as your source material. We support most common image and video formats for maximum flexibility.\nCan I use face-swapped content commercially?\nYes! Paid subscribers can use their face-swapped content for commercial purposes. Free users are limited to personal, non-commercial use only. Always ensure you have the rights to use the original source material and faces in your projects.\nWhat is a face swap video?\nA face swap video uses AI to replace one or more faces in a video clip with different faces while preserving expressions, lighting, and motion. Magic Hour's face swap video tool lets you upload a video and face photos, then generate a realistic swapped video in minutes.\nCan I swap multiple faces in one video?\nYes! Our tool supports swapping multiple faces by letting you select the before and after face for each person individually. Access this feature by clicking 'Multi Face Swap' in the dashboard version of our face swap tool.\nHow do I create a face swap AI video?\nCreating a face swap AI video with Magic Hour is simple: 1. Upload your video or enter a YouTube URL. 2. Upload a photo of the face you want to swap in. 3. Select the faces in your video to swap (either all faces or individual faces). 4. Click render and let our AI process it. 5. Download your swapped video.\nHow do I make a GIF face swap?\nTo make a GIF face swap with Magic Hour: 1. Go to our free GIF face swap tool. 2. Upload the GIF you want to edit. 3. Upload a photo of the face you want to swap in. 4. Click Swap Faces and download your face swap GIF. It's free and works in your browser.\nWhat type of photo or video works best for face swapping?\nFor photos, choose a high-resolution image of your subject's face that shows the entire face clearly in good lighting, without other faces or obstructions. For videos, use clear, well-lit footage with consistent face visibility. Avoid low-quality or heavily edited files to ensure realistic swaps.\nWho is Magic Hour face swapping software best for?\nMagic Hour AI is best for anyone who wants realistic, high-quality face swaps, including content creators, marketers, filmmakers, developers, and casual users. It works without any editing experience, making it easy for anyone to generate studio-quality results with just a few clicks.\nImage-to-Video\nIs image to video AI free with no sign up?\nYes, image to video AI is free with no sign up required. You get 3 free generations per day (3 seconds each, with audio) \u2014 no account needed. Sign up for 400 bonus credits and 100 free credits daily. Upgrade for longer videos, higher resolution, and premium models (Kling, Veo, Sora).\nDo I need to sign up for image to video AI?\nNo. Image to video AI works in your browser with no account, no sign up, and no download. Sign up for free to unlock 400 bonus credits, 100 daily credits, and saved projects.\nWhat is image to video AI?\nImage to video AI is technology that converts a static image into a short video clip. You upload a photo, the AI analyzes the scene \u2014 identifying objects, depth, and spatial relationships \u2014 then generates realistic frame-by-frame motion. Modern models understand physics, lighting, and natural movement, producing results that can look close to filmed footage. It works with portraits, product photos, landscapes, illustrations, and AI-generated images.\nHow do I turn an image into a video with AI?\n\nMagic Hour makes it simple in three steps \u2014 no video editing skills or software downloads required. Everything runs in your browser:\n\nUpload your image \u2014 any photo, picture, or AI-generated image (PNG, JPG, WEBP, HEIC, and more).\nType a prompt\u2014 describe the motion or style you want, like \"camera slowly pans right\" or \"hair blowing in the wind.\"\nGenerate and download\u2014 click Render Video, then download your MP4 when it's ready.\nHow much does image to video cost?\nFree: 3 generations per day (3s each), no sign up. Sign up for 400 credits. Beyond that, each frame costs 1 credit at the base rate. Higher-resolution and premium models cost more (e.g. 1080p or Sora 2 vs 480p or LTX-2). A typical 5-second, 720p video with Kling 2.5 uses about 150 credits. Check Pricing for full details.\nWhat AI models are available for image to video?\n\nFree users have access to LTX-2 (fast iteration with built-in audio, lip-sync, and expressive faces). Advanced models \u2014 Seedance, Kling, Veo, Sora \u2014 require a paid plan. Full lineup:\n\nLTX-2 \u2014 free tier; fast iteration with built-in audio, lip-sync, and expressive faces.\nSeedance \u2014 fast iteration with start/end frame control (paid).\nKling 2.5 \u2014 strong motion, action, and camera control with native audio (paid).\nKling 3.0 \u2014 cinematic, multi-scene storytelling with audio and end frame (paid).\nSora 2\u2014 OpenAI's model for storytelling, dialogue, and creative sequences up to 60s (paid).\nVeo 3.1\u2014 Google's frontier model for realism, polish, and prompt adherence (paid).\nHow does the AI image-to-video tool work?\nOur tool takes your uploaded image and an optional text prompt, then uses advanced diffusion and motion modeling to generate smooth, frame-by-frame animation. The AI identifies objects, depth, and lighting in the original image, predicts natural motion based on training data from millions of videos, and renders each output frame while maintaining visual consistency. The result is a dynamic, cinematic video clip that preserves the core features of your source image.\nWhat image formats can I upload?\nMagic Hour supports PNG, JPG, JPEG, HEIC, WebP, AVIF, JP2, TIFF, and BMP. For best results, use a high-resolution image with good lighting and a clearly visible subject. Avoid heavily compressed images \u2014 the AI can amplify compression artifacts.\nWhat aspect ratios and resolutions are supported?\nYou can generate videos in 9:16 (TikTok, Reels), 16:9 (YouTube, landscape), or 1:1 (square) depending on the model. Resolution options include 480p, 720p, and 1080p. Not every model supports every combination \u2014 for example, Sora 2 supports 9:16 and 16:9 only, while Kling 2.5 supports all three aspect ratios at 720p and 1080p.\nHow long can my generated video be?\nVideo duration depends on the model you choose. LTX-2 supports up to 30 seconds, Seedance up to 12 seconds, Kling 2.5 up to 10 seconds, Kling 3.0 up to 15 seconds, Sora 2 up to 60 seconds, and Veo 3.1 up to 56 seconds. For longer content, you can generate multiple clips and edit them together, or use our AI Video Extender to extend the last frame of your video.\nWhat types of videos can I create with an image to video AI generator?\nYou can create animated portraits, product showcase clips, cinematic b-roll, social media loops for TikTok and Reels, music and lyric visuals, before/after reveals, fantasy or sci-fi scenes, and storyboard or pitch previews. It works for creators, marketers, artists, and storytellers \u2014 anyone who wants to turn still images into scroll-stopping video content without filming or complex editing.\nCan I add audio or music to my image-to-video?\nYes. Several models \u2014 including Kling 2.5, Kling 3.0, Sora 2, Veo 3.1, and LTX-2 \u2014 support native audio generation, producing synced sound alongside the video. For videos generated without audio, you can download the MP4 and add music, voiceover, or sound effects using any video editing tool. You can also use Magic Hour's Lip Sync tool to sync speech to a character in your video.\nCan I use my AI-generated videos for commercial purposes?\nYes \u2014 paid plan subscribers (Creator, Pro, or Business) hold full commercial rights to the videos they generate. You can use them in ads, social media, client work, product listings, and more. Free users may only use generated videos for personal, non-commercial purposes. Make sure you own the rights to any input images you upload.\nDoes Magic Hour have an API for image to video?\nYes. Our Image-to-Video API lets you integrate AI video generation directly into your app or workflow. Full documentation is available at docs.magichour.ai. The API supports all available models, resolutions, and aspect ratios.\nLip Sync\nIs AI lip sync free?\nYes, AI lip sync is free with no sign up required. You get 3 free lip syncs per day \u2014 no account needed. Sign up for 400 bonus credits and 100 free credits daily. Upgrade for more credits, priority processing, and advanced features.\nDo I need to sign up for AI lip sync?\nNo. AI lip sync works in your browser with no account, no sign up, and no download. Sign up for free to unlock 400 bonus credits, 100 daily credits, and saved projects.\nWhat is AI lip sync?\nAI lip sync is technology that uses artificial intelligence to automatically synchronize a person\u2019s lip and facial movements in a video with any audio track. The AI analyzes the audio timing, phonemes, and facial features to produce perfectly matched, natural-looking mouth movements\u2014making it look like the person is actually speaking the new audio. Magic Hour\u2019s Lip Sync AI works entirely in your browser with no software download required.\nHow does AI lip sync work?\n\nUpload a video with a visible face and an audio file with the speech you want to sync. Click Generate and the AI analyzes the audio waveform and maps mouth shapes frame by frame onto the face in your video. The result is a natural, seamless lip-synced video you can download as MP4. The entire process takes seconds to minutes depending on video length.\n\nWhat video formats, resolutions, and lengths are supported?\nWe support MP4 and MOV files up to 4K resolution. The maximum video length is 10 seconds in the free tool and 83 minutes (at 24 FPS) in the full tool. For longer projects, split your content into segments. Both sRGB and Rec709 colorspaces work well. For best results, use front-facing footage with good lighting and a clearly visible face.\nCan I lip sync videos using my own voice?\n\nYes! You can either:\n\nRecord your own audio separately and upload it to synchronize with your video.\nUse AI-generated voices or voice cloning in an online voice cloning tool for dubbing.\nWhat languages does lip sync AI support?\nMagic Hour\u2019s Lip Sync AI supports all languages worldwide. You can upload audio in any language, dialect, or accent\u2014English, Spanish, French, German, Portuguese, Japanese, Korean, Mandarin, Hindi, Arabic, and more\u2014and the AI will perfectly synchronize lip movements to match. This makes it ideal for video translation, content localization, and global distribution.\nHow accurate is the lip synchronization?\nOur AI delivers industry-leading accuracy, producing results that are virtually indistinguishable from naturally recorded video. The system precisely matches mouth shapes, facial expressions, and subtle speech mannerisms frame by frame to create authentic, professional-quality lip sync.\nHow long does processing take?\nMost lip sync videos process in under a minute for short clips. Processing time depends on video length, resolution, and complexity. You can monitor progress in real time and download your result as soon as it finishes.\nWhat types of videos can I lip sync?\n\nYou can sync:\n\nReal human videos (talking head, interviews, vlogs, ads)\nAI-generated avatars (for virtual influencers, marketing, and education)\nAnimated characters (for lip-synced storytelling and dubbing)\\u2014best results with human-like characters (e.g. Pixar style)\n\nFor best results, use video with a single visible face, front-facing, with good lighting.\n\nCan I use lip-synced videos commercially?\nYes. Paid plan subscribers (Creator, Pro, or Business) hold full commercial rights to their lip-synced videos. You can use them for ads, social media, e-commerce, client work, and branded content. Free users can use outputs for personal, non-commercial purposes.\nCan I use lip sync for video translation and dubbing?\n\nAbsolutely. Lip Sync AI is one of the most powerful tools for video dubbing and translation. Upload your video and a translated audio track, and the AI will re-sync lip movements to match the new language. This is ideal for:\n\nContent localization (YouTube, TikTok, Instagram, movies)\nE-learning and training videos\nMarketing and advertisements\nDialogue replacement without reshooting\nDoes lip sync AI have an API?\n\nYes. We offer a robust API for developers and businesses. Full documentation is available at docs.magichour.ai, allowing you to integrate lip sync capabilities directly into your applications or workflows. You can get started with the API for free.\n\nText-to-Video\nIs text to video AI free?\nYes, text to video AI is free with no sign up required. You get 3 free generations per day (3 seconds each, with audio) \u2014 no account needed. Sign up for 400 bonus credits and 100 free credits daily. Upgrade for longer videos, higher resolution, and premium models (Kling, Veo, Sora).\nDo I need to sign up for text to video AI?\nNo. Text to video AI works in your browser with no account, no sign up, and no download. Sign up for free to unlock 400 bonus credits, 100 daily credits, and saved projects.\nHow much does Text-to-Video cost?\nFree users get 3 generations per day (3s each) with no sign up. Sign up for 400 free credits. For more generations, longer videos, higher resolution, or premium models (Kling, Veo, Sora), subscribe to our Creator, Pro, or Business plan or purchase a credit pack. Each second of video costs 24 credits at the base rate on paid/credit plans.\nWhat AI models are available for text to video?\nFree users get LTX-2 (with audio). Advanced models \u2014 Kling, Veo, and Sora \u2014 are available only on paid plans and support longer clips and higher resolution.\nHow do I create a text-to-video video?\nTo create a text-to-video video, go to https://magichour.ai/create/text-to-video and enter a prompt!\nHow long do videos take to generate?\nWe provide an ETA after you start your video render, but as a rule of thumb, each 5 second video requires roughly 5-6 minutes to generate.\nMy video ran into an error. What do I do?\nTry changing the prompt and trying again later. Currently we have a safety system that doesn't allow generations with certain words, so you might have better results if you shorten your prompt or remove any words that may violate our content policy.\nWhat should I include in my prompt?\nIn general, you'll get better results by being more specific. Some of the things we recommend including in your prompt are the camera motion, e.g. \u201cA drone fly through,\u201d an action, e.g. \u201ca man running,\u201d and details about the setting, people, and objects in your scene.\nVideo-to-Video\nIs video to video AI free?\nYes, video to video AI is free to try with a free account. Sign up to get 400 credits \u2014 no credit card required. Claim 100 bonus credits every day you sign in. Upgrade for more credits, priority processing, and advanced features.\nDo I need to sign up for video to video AI?\nYes, a free account is required. Sign up takes seconds \u2014 no credit card needed. You get 400 credits immediately and 100 bonus credits daily.\nHow much does Video-to-Video cost?\nEach image in the video costs 2 credits.\nCan I upload my own initial video?\nYes you can! We support uploading your own video or using a YouTube URL.\nWhat is video to video style transfer?\nVideo to video style transfer (or video restyle) uses AI to change the visual style of a video while keeping the motion and action the same. Upload a video, choose a style like anime or cinematic, and the AI transforms the look. It works like a video style changer - same movement, new aesthetic.\nCan I have multiple styles throughout the video?\nTo achieve multiple styles, you will need to create multiple videos with the different styles you're looking for. We will be adding a built-in feature for dynamic styles in the future.\nHow do I input a style?\nTo input a style, write a prompt with the style, subjects, and art style you're looking for. We also have preset art style templates that you can choose to augment your video.\nHow do I restyle a video with AI for free?\nUpload your video or paste a YouTube link on Magic Hour's video to video page. Choose an art style (anime, cartoon, cinematic, etc.) or describe your desired look in a prompt. Click render and download your restyled video. Sign up for a free account to get 400 credits and start restyling.\nAI Clothes Changer\nIs AI clothes changer free?\nYes, AI clothes changer is free with no sign up required. You get 3 free outfit swaps per day \u2014 no account needed. Sign up for 400 bonus credits and 100 free credits daily. Upgrade for more credits, priority processing, and advanced features.\nDo I need to sign up for AI clothes changer?\nNo. AI clothes changer works in your browser with no account, no sign up, and no download. Sign up for free to unlock 400 bonus credits, 100 daily credits, and saved projects.\nHow much does the AI clothes changer cost?\nYou get 3 free clothes swaps daily with no signup. Sign up for 400 credits plus 100 daily credits - each swap uses 25 credits. Subscribe to our Creator, Pro, or Business plan or purchase credit packs for more.\nCan I use AI-generated photos commercially?\nYes, if you own the copyright for the model and outfit photos or use public domain images.\nWhat is an AI clothes changer?\nAn AI clothes changer uses artificial intelligence to edit clothing in photos, letting you try on outfits or styles digitally. It's great for virtual styling, social media, and professional photo needs.\nWhat is the AI clothes changer used for?\nIt helps businesses, especially small ones, quickly update product images and videos for online stores, saving time and cost compared to traditional photoshoots.\nDoes the AI clothes changer work for all clothing?\nYes! It supports shirts, pants, dresses, and more. Select Upper Body, Lower Body, or Dress based on the garment you\u2019re swapping.\nMy photo didn't turn out well. What should I do?\nFor best results, use:\nOutfit photos: white background, flat, single garment fully visible.\nModel photos: one person, front-facing, natural pose, no obstructions.\nAI Face Editor\nIs AI face editor free?\nYes, AI face editor is free with no sign up required. You get 3 free edits per day \u2014 no account needed. Sign up for 400 bonus credits and 100 free credits daily. Upgrade for no watermark, higher resolution, and priority processing.\nDo I need to sign up for AI face editor?\nNo. AI face editor works in your browser with no account, no sign up, and no download. Sign up for free to unlock 400 bonus credits, 100 daily credits, and saved projects.\nIs my photo data safe?\nYes. Uploaded images are processed securely and are deleted after use. We don't use your images for training or share them with third parties. Your data stays private, safe, and secure.\nWhat is an AI face expression changer?\nAn AI face expression changer lets you alter the expression in a face photo using AI. Ours is a facial expression editor with sliders for eyes, mouth, eyebrows, and head position so you can change face expression online without Photoshop. You get precise control instead of fixed filters.\nWhat is the AI Face Editor?\nThe AI Face Editor is a free online face expression editor and expression changer. Upload a face photo and fine-tune its expression using detailed sliders. Adjust facial parameters like gaze, mouth shape, and head tilt to get the exact look or emotion you want. No design or Photoshop skills needed.\nHow does the AI Face Editor work?\nWhen you upload a face image, the AI detects key landmarks and gives you sliders to adjust each part of the face - like eyebrow tilt, eye openness, lip shape, and head position. You can combine these to simulate expressions such as smiling, frowning, or surprise. All edits are non-destructive and update in real time.\nCan I animate or bring static images to life?\nWhile it doesn\u2019t animate images frame-by-frame, the tool lets you make static portraits feel more dynamic by adjusting expressions and posture. However, you can use our image-to-video or talking photo products to turn your portrait into a video, ideal for avatars, storytelling, and personal messages.\nCan I edit any type of face or image?\nThe editor works best with clear, front-facing photos of a single person. It supports a variety of faces, but results are more accurate when facial features are unobstructed and well-lit. Stylized or artistic images may work, but with reduced precision.\nCan it generate emotions automatically?\nNo. The tool doesn't apply emotions like \u201chappy\u201d or \u201csad\u201d directly. Instead, it gives you precise control over facial components so you can build expressions yourself. This allows for more creative freedom and subtlety compared to automatic filters or presets.\nDo I need any technical skills to use this?\nNo. The interface is simple and slider-based, so anyone can explore and edit expressions with no learning curve. You'll see instant visual feedback, making it easy to understand how each parameter affects the face.\nHow do I change face expression in a photo?\nUpload your photo to our AI face editor. Use the sliders to adjust eye gaze, eyebrow direction, mouth smile or pout, and head pose. You can change face expression online in seconds - from neutral to smile, surprise, or any look you want. Download when done. Works in your browser, no app needed.\nWhat kinds of edits can I make?\nYou can control over a dozen parameters, including eyebrow direction, eye gaze, lip openness, mouth curvature, and head tilt. These allow you to subtly or dramatically alter a face's expression or pose. Whether you're aiming for a slight smirk or an exaggerated reaction, the editor gives you full flexibility.\nWhat makes this different from other face editing tools?\nUnlike apps that use prebuilt filters or templates, this editor gives you granular, real-time control over how each facial feature behaves. That means you're not limited to one-click effects - you can experiment, combine, and refine facial changes exactly how you want, just like a video game character builder screen. It's built for precision and creativity.\nAI GIF Generator\nIs AI GIF generator free?\nYes, AI GIF generator is free with no sign up required. You get 3 free GIFs per day \u2014 no account needed. Sign up for 400 bonus credits and 100 free credits daily. Upgrade for more credits, no watermark, and priority processing.\nDo I need to sign up for AI GIF generator?\nNo. AI GIF generator works in your browser with no account, no sign up, and no download. Sign up for free to unlock 400 bonus credits, 100 daily credits, and saved projects.\nWill my prompts or images be stored or reused?\nNo. Your data is processed securely and deleted shortly after generation. We don't use your inputs to train models or share them with third parties. Your privacy and creative control are important to us.\nCan I use the generated GIFs commercially?\nYes, paid users have full rights to use their GIFs in commercial projects. This includes social media, marketing, websites, and client work. Free users can use GIFs for personal, non-commercial purposes and must credit the tool or keep the watermark.\nWhat is the AI GIF Generator?\nThe AI GIF Generator lets you create animated GIFs from text prompts using generative AI. You can describe a scene - like \u201ca cat floating through space in pixel art style\u201d - and get a looping GIF within seconds. It's designed for creators, marketers, and anyone who wants to make eye-catching content without animation skills.\nHow does the AI GIF Generator work?\nThe tool uses AI models trained on large animation and image datasets to generate a series of frames based on your input prompt. These frames are then stitched into a smooth, looping GIF. The process is fully automated and typically takes less than a minute.\nWhat formats can I download the GIF in?\nBy default, your animation is available as a standard GIF file. Paid users can also export as high-quality MP4 for better compression and social media compatibility. All files are optimized for sharing on platforms like Instagram, TikTok, and Discord.\nCan I upload an image to guide the animation?\nNot yet. The AI GIF generator currently creates GIFs from text prompts only. Image-to-GIF support may be added in the future.\nWhat kind of prompts work best?\nClear, descriptive prompts with visual detail tend to produce the best results. For example, \u201ca robot dancing under neon lights in anime style\u201d will yield better results than just \u201crobot dancing.\u201d You can also add style cues like \u201c3D,\u201d \u201cpixel art,\u201d or \u201ccinematic lighting\u201d for more control.\nWhat styles can I create with the AI GIF Generator?\nYou can generate GIFs in a wide range of styles, including anime, cinematic, pixel art, sketch, digital painting, and more. The tool will continue to evolve with new style presets and prompt-based fine-tuning, making it easier to match your aesthetic.\nAI Headshot Generator\nIs AI headshot generator free?\nYes, AI headshot generator is free with no sign up required. You get 3 free headshots per day \u2014 no account needed. Sign up for 400 bonus credits and 100 free credits daily. Upgrade for more credits, priority processing, and advanced features.\nDo I need to sign up for AI headshot generator?\nNo. AI headshot generator works in your browser with no account, no sign up, and no download. Sign up for free to unlock 400 bonus credits, 100 daily credits, and saved projects.\nDo I own my AI generated images?\nThe images you generate using Magic Hour's AI headshot generator belong to you and you only. We do not store your output images or input images.\nWhat is the best free AI headshot generator?\nMagic Hour is one of the best free AI headshot generators. It works with one photo, requires no sign up, and delivers professional headshots in seconds. Unlike many tools that need 6-12 photos or a paid plan, you can create headshots for free online with no credit card. Ideal for LinkedIn, resumes, and team pages.\nHow do I generate a headshot using an AI headshot generator?\nSimply upload a clear selfie, and our AI will automatically enhance, refine, and generate a professional-quality headshot. Using advanced image processing, the tool applies background removal, lighting adjustments, and facial enhancements to create a polished and realistic result. In just a few seconds, you'll receive a high-resolution headshot ideal for professional profiles, resumes, social media, and more - no need for an expensive studio photoshoot!\nHow do I regenerate my headshot if I'm not satisfied?\nSimply click regenerate or upload another photo and create another headshot for free! You can keep creating headshots until you're fully satisfied with your output.\nWhat kind of image should I use?\nYou should use an image that has a clear shot of your face with no obstructions. It should also resemble you, be high resolution, and not include multiple people.\nWhy use an AI headshot generator?\nAn AI headshot generator can create a professional headshot in about 30 seconds for free - compared to hundreds of dollars and hours of your time for a photographer.\nAI Image Generator\nIs AI image generator free?\nYes, AI image generator is free with no sign up required. You get 10 free images per day \u2014 no account needed. Sign up for 400 bonus credits and 100 free credits daily. Upgrade for more credits, higher resolution, and premium features.\nDo I need to sign up for AI image generator?\nNo. AI image generator works in your browser with no account, no sign up, and no download. Sign up for free to unlock 400 bonus credits, 100 daily credits, and saved projects.\nWhat is an AI image generator?\nAn AI image generator is a tool that creates images from text descriptions or reference photos using artificial intelligence. You describe what you want (or upload an image for style or structure), and the AI produces visuals in seconds. Magic Hour\u2019s free AI image generator works in your browser with no sign up required.\nWhat is the best free AI image generator?\nMagic Hour offers a strong free AI image generator: no sign up to start, 10 images per day without an account, multiple models (e.g. Flux Schnell, Seedream, Nano Banana Pro), and text-to-image plus image-to-image in one place. You can try it alongside other tools like face swap and video generation on the same platform.\nHow do I use an AI image generator step by step?\nFirst, open the AI image generator and type a clear prompt (subject, style, mood, lighting). Second, choose aspect ratio and optional style presets. Third, click Generate and wait a few seconds. Fourth, download your favorite result or refine with a new prompt. No account is required for the first 10 images per day.\nHow many images can I generate daily?\nFree users can generate 10 images per day without signing up. Creating an account unlocks 80 bonus images plus 20 additional free images daily. Paid plans increase or remove limits and add features like higher resolution, priority processing, and advanced customization.\nCan I use Magic Hour\u2019s AI images for commercial projects?\nYes - if you\u2019re a paid user. Commercial usage covers marketing, websites, product designs, merchandise, and more, with no royalties or attribution required. Free users are limited to personal use only. As always, avoid infringing trademarks, copyrighted characters, or brands.\nDo I own my AI-generated images?\nYes. All images generated with Magic Hour belong entirely to you and can be used for personal or commercial projects. We make no copyright claims, but check your local laws as AI copyright regulations vary by region.\nHow does Magic Hour ensure the safe use of its AI image generator?\nWe automatically screen prompts to block inappropriate content and provide guidelines for ethical use. Users can also report issues to help maintain a safe and positive community.\nAre there any limitations to what the AI can generate?\nAI excels with clear, specific prompts but may struggle with highly abstract ideas or contradictory instructions. The more precise your description, the better your results. Practice and iteration improve outcomes significantly.\nCan I edit or modify my AI-generated images?\nYes. You can refine images by regenerating variations with new prompts, or edit them for free in our AI Image Editor. You can also download images for use in any design software, allowing you to use traditional editing techniques.\nHow can I ensure my AI-generated images align with my brand?\nInclude brand-specific details in your prompts, such as colors, style, and tone (e.g., 'minimalist design in blue and white with a modern tech feel'). Save effective prompts to ensure consistency across all your visuals.\nHow do I generate an image from text?\nType your prompt into the text field and click 'Generate.' Our AI instantly transforms your description into multiple images. Once generated, you can download your favorites in high resolution and share them directly from the platform.\nHow do I write a great prompt for AI image generation?\nA good prompt is clear and specific and covers subject, style, and details. For example: 'A serene mountain lake at sunset, impressionist style, dramatic lighting.' Structures like 'Subject + Setting + Lighting + Style + Quality' work well. Experiment with both short and detailed prompts to find the best results. See our [AI prompting guide](/blog/how-to-prompt-ai-videos-a-simple-guide) for examples.\nWhy use an AI image generator, and what projects is it best for?\nAI image generators turn ideas into visuals quickly, removing the need for design skills or long production times. They\u2019re perfect for social media graphics, marketing campaigns, blogs, presentations, storyboards, and quick prototyping of creative concepts.\nAI Image Upscaler\nIs AI image upscaler free?\nYes, AI image upscaler is free with no sign up required. You get 3 free upscales per day \u2014 no account needed. 2x upscaling is free for all users. 4x upscaling requires a Creator, Pro, or Business plan. Sign up for 400 bonus credits and 100 free credits daily.\nDo I need to sign up for AI image upscaler?\nNo. AI image upscaler works in your browser with no account, no sign up, and no download. Sign up for free to unlock 400 bonus credits, 100 daily credits, and saved projects.\nCan I use upscaled images for commercial purposes?\nYes, any images you create on Magic Hour are yours. Paid users can use them for commercial purposes, while free users are limited to personal, non-commercial use.\nWhat is an AI image upscaler?\nAn AI image upscaler is a tool that increases the resolution of low-quality images, enhancing their size and clarity without losing picture quality. Use it to upscale image resolution for print, e-commerce, or social media.\nWhat is the maximum upscale factor?\nMagic Hour supports upscaling images up to 4x the original resolution for paid users and 2x for free users. Use our image upscaler online to increase resolution for photos, graphics, and design assets.\nHow does the AI image upscaler work?\nOur AI image upscaler analyzes your image and generates a higher-resolution version by enhancing textures, sharpness, and details. Upload, choose 2x or 4x, and download - no complex settings needed.\nHow do I upscale an image with Magic Hour?\n1. Upload Your Image - Select the image you want to upscale.\n2. Let AI Enhance It - Our AI image upscaler will enhance resolution while preserving details.\n3. Download - Once complete, download your high-resolution image.\nAI Meme Generator\nIs AI meme generator free?\nYes, AI meme generator is free with no sign up required. You get 3 free memes per day \u2014 no account needed. Sign up for 400 bonus credits and 100 free credits daily. Upgrade for more credits, priority processing, and advanced features.\nDo I need to sign up for AI meme generator?\nNo. AI meme generator works in your browser with no account, no sign up, and no download. Sign up for free to unlock 400 bonus credits, 100 daily credits, and saved projects.\nWhat is an AI Meme Generator?\nAn AI meme generator uses artificial intelligence to automatically create memes by pairing images with relevant, often humorous captions. You can either upload your own image or choose from popular meme templates. The AI analyzes the image and generates a caption that matches its tone or context. It's a fast, fun way to create shareable content without needing design or writing skills.\nWhat is the best AI meme generator?\nThe best AI meme generator lets you create memes from text quickly, offers popular templates, and works in your browser without sign up. Magic Hour gives you all of this - plus the ability to turn memes into videos with image-to-video.\nHow does AI meme generation work?\nThe AI reads your prompt and analyzes the chosen meme template to generate a caption that fits the format and tone. It draws on patterns from internet culture, trending memes, and humor data to craft something that feels relevant and entertaining. The entire process takes just seconds.\nHow do I create memes from text with AI?\nUse our AI meme generator: pick a meme template, type your idea or topic in the text box, and click generate. The AI turns your text into a funny caption that fits the format. Download or share your meme instantly.\nHow do I generate memes using AI?\nPick a meme template and write a short prompt describing what the meme should be about. The AI will generate a funny or relevant caption based on your input. You can edit the caption if you like, then download or share the meme instantly - no design skills required.\nHow do I make a good meme?\nPick a well-known meme template and write a prompt that captures a relatable, ironic, or exaggerated scenario. The best memes are simple, surprising, and emotionally resonant - whether they're funny, frustrating, or painfully true. Let the AI do the rest.\nHow is this meme generator different from others?\nMost meme generators require you to write your own captions. Ours uses AI to turn a simple prompt into a funny, context-aware caption that fits a popular meme format. It lowers the barrier to creativity and makes meme creation faster, easier, and more fun.\nWhy use an AI meme generator?\nIt makes meme creation accessible to anyone, even if you're not a designer or writer. Just describe an idea, and the AI handles the caption and formatting. It's fast, effortless, and ideal for creating content that entertains, engages, or goes viral.\nAI QR Code Generator\nIs AI QR code generator free?\nYes, AI QR code generator is free with no sign up required. You get 5 free QR codes per day \u2014 no account needed. Sign up for 400 bonus credits and 100 free credits daily. Upgrade for more credits, priority processing, and advanced features.\nDo I need to sign up for AI QR code generator?\nNo. AI QR code generator works in your browser with no account, no sign up, and no download. Sign up for free to unlock 400 bonus credits, 100 daily credits, and saved projects.\nIs there a scan limit for the QR codes?\nThere's no scan limit on the QR codes you generate with Magic Hour. They can be scanned as many times as necessary and will always direct users to your chosen URL or content.\nCan I use the QR Codes for commercial purposes?\nYes, any QR codes you create on Magic Hour are yours. Paid users may use them for commercial purposes, while free users are limited to personal, non-commercial use.\nWhat is a QR code?\nA QR code (Quick Response Code) is a type of barcode that can store a wide variety of data, like URLs, which can be quickly scanned using a smartphone camera. Our AI-generated QR codes take this basic technology to the next level by turning your QR codes into personalized, artistic designs that reflect your brand or creative vision.\nWhat is an AI QR code art generator?\nAn AI QR code art generator creates artistic QR codes from any link or text. Instead of plain black and white codes, you get QR code art with custom styles - watercolor, minimal, retro, and more. Our free AI QR code generator turns any URL into scannable QR code artwork in seconds.\nDo the created QR codes expire?\nNo, Magic Hour's AI-generated QR codes never expire. They are static and will work indefinitely once created, allowing you to use them as long as you need.\nHow do I create QR code art?\nUse Magic Hour's qr art generator: enter any text or URL, choose an art style (watercolor, minimal, retro, etc.), and click Generate. Your AI art QR code will be ready in about 30 seconds. Download and use it for posters, packaging, business cards, and more.\nWhy isn't my QR code working properly?\nFirst, try zooming your camera in and out and left and right. Then, try re-generating your QR code. Lastly, check the data you entered for accuracy, and ensure you're using a reliable QR code scanner app.\nImage Background Remover\nIs AI background remover free?\nYes, AI background remover is free with no sign up required. You get 5 free images per day \u2014 no account needed. Sign up for 400 bonus credits and 100 free credits daily. Upgrade for more credits, priority processing, and advanced features.\nDo I need to sign up for AI background remover?\nNo. AI background remover works in your browser with no account, no sign up, and no download. Sign up for free to unlock 400 bonus credits, 100 daily credits, and saved projects.\nWhat is an AI background remover?\nAn AI background remover is a tool that uses artificial intelligence to detect and remove the background of an image, giving you a clean cutout with a transparent background. Magic Hour's free AI background remover works on any photo in seconds.\nCan I remove backgrounds from multiple images at once?\nYes. You can remove backgrounds from up to 50 images at once with our full product or API. Sign up for a free account to get access to batch AI background removal.\nHow can I change the background color?\nAfter the AI removes the background, you can pick a preset background color or a custom color to replace it. White, transparent, or any color - all from the same tool.\nHow do I change the background of an image?\nFirst use our AI to remove the background, then upload an image to use as the new background or choose from our preset backgrounds.\nHow do I remove the background from an image?\nUpload your image and our AI removes the background instantly. You get a transparent PNG to download or edit. No signup required to try. Supports PNG, JPG, and all common image sizes.\nHow fast is the AI background remover?\nOur AI removes the background from your image in seconds. It is one of the fastest free AI background removers online - just upload, and get your transparent cutout instantly.\nImage-to-Image\nIs image to image AI free?\nYes, image to image AI is free with no sign up required. You get 3 free transformations per day \u2014 no account needed. Sign up for 400 bonus credits and 100 free credits daily. Upgrade for more credits, priority processing, and advanced features.\nDo I need to sign up for image to image AI?\nNo. Image to image AI works in your browser with no account, no sign up, and no download. Sign up for free to unlock 400 bonus credits, 100 daily credits, and saved projects.\nWhat do I need to create an image?\nYou need an image and either a prompt or a reference image.\nWhat should I prompt?\nDescribe the style, subjects, and materials you'd like to see in the final image. You can adjust the prompt strength to choose how far to deviate from the original image.\nWhat styles can I transform my image into?\nImage to Image can transform your image into any style, including anime, photograph, illustration, pop art, and more.\nPhoto Colorizer\nIs photo colorizer free?\nYes, photo colorizer is free with no sign up required. You get 3 free colorizations per day \u2014 no account needed. Sign up for 400 bonus credits and 100 free credits daily. Upgrade for higher resolution, no watermark, and priority processing.\nDo I need to sign up for photo colorizer?\nNo. Photo colorizer works in your browser with no account, no sign up, and no download. Sign up for free to unlock 400 bonus credits, 100 daily credits, and saved projects.\nIs my photo data stored or reused?\nNo. Uploaded photos are processed securely and deleted shortly after use. We don't store your images for training or share them with any third parties. Your content remains private and protected.\nCan I use colorized photos for commercial projects?\nYes, paid users can use their results for commercial purposes. This includes publishing, prints, marketing materials, and more. Free versions are for personal use and include a watermark. Upgrade for full resolution and usage rights.\nWhat is an image colorizer?\nAn image colorizer is an AI tool that adds realistic color to black and white or faded photos. Magic Hour's free image colorizer analyzes objects, faces, and context to infer natural-looking tones. You can colorize photos free online with a single upload - no sign up required.\nWhat is the Photo Colorizer?\nThe Photo Colorizer is our image colorizer that takes black and white or faded photos and automatically adds realistic colors using AI. It analyzes the objects, faces, and context in the image to infer natural-looking tones. This makes it easy to revive old memories and bring historical photos to life with a single upload.\nHow does the Photo Colorizer work?\nThe tool uses deep learning models trained on millions of images to predict accurate colors for grayscale photos. It identifies objects, people, and settings to apply realistic hues - like skin tones, sky, or clothing - while preserving fine details. The process is fully automated and takes just a few seconds.\nWhat file types are supported?\nWe support JPG, PNG, and WebP formats. If your image is in another format like TIFF or BMP, use a free converter before uploading. For best results, upload clear, high-quality images at 512x512 resolution or higher.\nCan I fine-tune the colors after colorization?\nNot yet. The current version focuses on fully automatic results for speed and simplicity. If you're looking for more customization, you can use our photo editing tools to adjust the style or make enhancements afterward.\nHow can I enlarge old photos without losing details?\nUse the AI Image Upscaler, which enhances resolution up to 4x while preserving detail. It's designed to retain textures, facial features, and sharpness. This is useful for printing, archiving, or sharing restored images online. It works especially well after colorizing your photo.\nWhat kinds of photos work best?\nThe image colorizer performs best on clear, well-lit black and white portraits or outdoor scenes. Photos with recognizable objects and faces typically produce the most accurate colorizations. Blurry, heavily damaged, or abstract images may still work, but with less consistent results.\nWhy retouch an old portrait with Magic Hour's Photo Colorizer?\nColor brings emotion and realism back to old portraits. Our AI enhances skin tones, background colors, and fine details to make the image feel alive again. It's an easy way to reconnect with family history or give new life to old memories. The results are often striking, even with minimal effort.\nCan't find your question?\n\nContact us and we will help!\n\nEmail\nsupport@magichour.ai\nDiscord\ndiscord.gg/JX5rgsZaJp\nStep Into the Magic\nGenerate Your First Video\nJoin the Discord\nCOMPANY\nPricing\nAbout\nBlog\nAPI\nTemplates\nModel Leaderboards\nPrivacy Policy\nTerms of Service\nVIDEO PRODUCTS\nAI UGC Ad Generator\nAI Video Expander\nAI Video Extender\nAI Video Upscaler\nAnimation\nAudio-to-Video\nFace Swap Video\nImage-to-Video\nLip Sync\nSubtitle Generator\nTalking Photo\nText-to-Video\nVideo-to-Video\nIMAGE PRODUCTS\nAI Clothes Changer\nAI Face Editor\nAI GIF Generator\nAI Headshot Generator\nAI Image Editor\nAI Image Expander\nAI Image Generator\nAI Image Upscaler\nAI Meme Generator\nAI Selfie Generator\nAI Storyboard Generator\nBackground Remover\nBody Swap\nFace Swap Photo\nHead Swap\nPhoto Colorizer\nQR Code Generator\nAUDIO PRODUCTS\nAI Music Generator\nVideo-to-Audio\nVoice Changer\nVoice Cloner\nVoice Generator\nSUPPORT\nCommunity\nFAQ\nContact Us\nStatus\nSOCIAL\nsupport@magichour.ai\nBacked by\nCombinator\n\n\u00a9 2026 Magic Hour AI, Inc.\n\nInsufficient credits"
+      ],
+      "text_chunks": null,
+      "metadata": {
+        "title": "FAQ | Magic Hour",
+        "description": "How can we help? Learn how to use Magic Hour to create content like never before. Learn tips and tricks for using the Magic Hour products.",
+        "og_images": [
+          "https://magichour.ai/logo-social.png"
+        ],
+        "og_image": "https://magichour.ai/logo-social.png"
+      },
+      "screenshot": "scraped_data/magichour.ai_20260529_023813/screenshots/faq_1aa212.png"
+    },
+    {
+      "url": "https://magichour.ai/products/ai-ugc-ad-generator",
+      "is_homepage": false,
+      "status": "ok",
+      "load_ms": 23441,
+      "text": [
+        "Magic Hour\nAI\u00a0Video\nAI\u00a0Image\nAI\u00a0Audio\nPricing\nAPI\nLog In\nSign Up\n- It's Free\nHome\nTools\nAI Ugc Ad Generator\nAI UGC Generator\n\nCreate AI UGC ads and UGC video ads in minutes - no creators or revision cycles. Scroll-stopping ads ready to use online.\n\nGenerate Your First UGC Ad\n4.9/5 on Product Hunt\n|\n20M+ AI videos generated\n|\n500K+ creators in last 30 days\nTrusted by teams at\nHow AI UGC Generator Works\nThree simple steps to create AI UGC ads\n1\nChoose an actor\nUpload your own actor or use one of our AI actors.\n2\nGenerate first frame\nEdit the first image of your video, including pose, background, and product.\n3\nEnter script and generate\nAdd the script you'd like to use, choose the duration, then click generate.\nGenerate Your First UGC Ad\nAI UGC Generator Use Cases\nSee how our AI UGC generator can be used for UGC ads and video ads in different scenarios.\nDTC product ads\nUse an AI UGC ad generator to create direct-to-camera style ads for ecommerce products. Need face swap? Try our face swap video tool. Generate multiple hooks and angles without coordinating creators.\nApp install creatives\nUse UGC-style ads to demo app features in a natural, testimonial format. Test different scripts and CTAs to improve install rates.\nA/B testing variations\nUse AI UGC ads to produce many variations quickly - different openings, benefits, and tones. For image variations, try our image to image generator. Find the best-performing message before you scale spend.\nLocalization at scale\nUse UGC ads to localize the same concept into multiple languages and regions. Keep the structure while adapting phrasing and cultural context.\nSeasonal promos\nUse UGC ad generation to spin up holiday, sale, and event-specific creatives fast. Launch timely promos without a full production cycle.\nProduct feature launches\nUse UGC-style clips to announce new features in a way that feels native to feeds. Create short updates for TikTok, Reels, and paid social.\nRetargeting creatives\nUse UGC ad variations to address objections and highlight proof for warm audiences. Create specific messages for retargeting and remarketing.\nWhy Creators Love AI UGC Generator\nCreate UGC ads and AI UGC video ads instantly - no creator outreach or revision cycles. Choose an actor, set the first frame, add a script, and render.\nStop waiting on creators and revisions\nShip concepts immediately instead of coordinating schedules and feedback loops.\nTest more angles with less spend\nCreate many ad variations fast so you can iterate toward winners.\nUpdate messaging without reshoots\nChange scripts or visuals when offers and product details change.\nControl the look from the first frame\nSet the pose, background, and product so the output fits your brand.\nCreate ads that feel native to social\nGenerate short-form, scroll-stopping content designed for modern feeds.\nTestimonials\nHear what our users have to say\n\"Magic Hour is the fastest way I've found to go from an idea to a polished image or video. It's simple, the results are consistent, and it's easy to iterate. It feels like a real creator tool.\"\nVishal Sankhat\nInstagram Creator (534K followers)\n\"Magic Hour is a powerful AI tool for creating video, photo, and even voice content all in one place. Being able to generate videos up to 60 seconds from a single prompt is something most similar platforms still don't offer.\"\nDaniel Davidson\nYoutube Creator (194k subscribers)\n\"Magic Hour is one of the few AI tools I genuinely trust. Most tools are hit or miss, but Magic Hour feels reliable. I know what I'm going to get, which makes it easy to use regularly for social content.\"\nNasion Patriotik\nSocial Media Creator (1.8M followers)\n\"Most AI tools look impressive at first, but they're hard to rely on once you use them regularly. Magic Hour has been different for me. It's easy to use, the results are consistent, and I can get something polished without spending time fixing or redoing things. It fits naturally into how I create, which is why I keep coming back to it.\"\nLisa Li\nMultimedia Designer at Rakuten Viki\nAI UGC Generator Features\nCreate UGC-style ads and video ads without filming or actors\nCreate Winning Ads in Minutes\nCreate AI UGC ads and UGC video ads instantly - no waiting on creators or revision cycles. Test faster, scale creative, and beat your competition to market.\nUnlimited Creative Testing\nTest endless ad variations without creator fees or waiting. Find your winning creative fast and scale what works.\nLaunch Globally in 50+ Languages\nReach audiences anywhere with native voices and perfect lip-sync. Localize to every market without translation costs.\n1,000+ Diverse AI Actors Ready to Perform\nChoose from captivating AI actors that match your brand and audience. Find the perfect face for every campaign with emotion control and natural expressions.\nCreate UGC Ads Now\nAI UGC Generator FAQ\nDo I have commercial rights to use the generated videos?\nYes, paid subscriptions include full commercial usage rights. Use your videos on any platform: Facebook, Instagram, TikTok, YouTube, Google Ads, Amazon, without additional fees or attribution.\nWhat is an AI UGC video generator?\nAn AI UGC video generator creates authentic user-style marketing videos using artificial intelligence and customizable avatars. You input a script, select an avatar, and generate professional UGC ads in minutes without cameras, actors, or editing skills.\nHow does this compare to hiring UGC creators?\nAI generation is 10-20x faster and 5-10x cheaper than traditional creators who charge $100-500 per video with 1-2 week turnarounds, allowing you to generate unlimited variations in minutes for rapid testing and scaling.\nWhat languages are supported?\nWe support 40+ languages including English, Spanish, French, German, Portuguese, Japanese, Korean, Mandarin, Hindi, and Arabic. All avatars maintain natural lip-sync and pronunciation across every language.\nCan AI avatars hold or demonstrate physical products?\nYes, avatars can physically hold items. To do this, include the product you'd like them to demonstrate in the first frame of the video. Our AI UGC Ads tool lets you upload an image of your product to create this image.\nCan I edit videos after they're generated?\nYes, you can edit dialogue, music, and timing without using credits. Regenerating with a new script or avatar consumes a new video credit. You can also edit the video in editing software by downloading the video and uploading it into your video editor.\nHow long does it take to generate a video?\nMost videos generate in 3-10 minutes depending on length and complexity. You'll receive a notification when your video is ready, and you can create multiple videos simultaneously.\nWhat happens to unused credits each month?\nUnused credits are yours and never expire. However, access to this tool is only available for users on a paid subscription.\nWhat types of products work best with AI UGC ads?\nE-commerce products, SaaS apps, digital services, supplements, beauty products, fashion, and online courses perform exceptionally well. Testimonials, product demos, and problem-solution narratives see the highest engagement and ROI.\nWe Value Your Privacy & Data Security, Always\nCommercial use, training, deletion, retention (1 day), and security. \nRetention:\n1 day\nCommercial use\nPaid plans permit commercial use of outputs. Free users can preview and test.\nLearn more\nNo training\nWe do not use your uploads or outputs to train our models.\nLearn more\nDelete anytime\nYou can delete your content or account at any time. Deletion removes content from active storage immediately.\nLearn more\nSecurity\nEncrypted in transit and at rest. Access is restricted for operations and support.\nLearn more\nMore Free AI Tools\nThese tools are part of Magic Hour's AI video generator hub\u2014an overview of all our AI video tools, including text-to-video, face swap, lip sync, and more.\nFree\nLip Sync\nSync your video with any audio\nFree\nImage-to-Video\nTurn images into videos\nFree\nFace Swap Video\nEasily swap faces in any video\nFree\nText-to-Video\nCreate realistic videos from text\nFree\nTalking Photo\nMake still photos talk\nAI Video Upscaler\nEnhance video quality\nStep Into the Magic\nCreate Your First UGC Ad\nJoin the Discord\nCOMPANY\nPricing\nAbout\nBlog\nAPI\nTemplates\nModel Leaderboards\nPrivacy Policy\nTerms of Service\nVIDEO PRODUCTS\nAI UGC Ad Generator\nAI Video Expander\nAI Video Extender\nAI Video Upscaler\nAnimation\nAudio-to-Video\nFace Swap Video\nImage-to-Video\nLip Sync\nSubtitle Generator\nTalking Photo\nText-to-Video\nVideo-to-Video\nIMAGE PRODUCTS\nAI Clothes Changer\nAI Face Editor\nAI GIF Generator\nAI Headshot Generator\nAI Image Editor\nAI Image Expander\nAI Image Generator\nAI Image Upscaler\nAI Meme Generator\nAI Selfie Generator\nAI Storyboard Generator\nBackground Remover\nBody Swap\nFace Swap Photo\nHead Swap\nPhoto Colorizer\nQR Code Generator\nAUDIO PRODUCTS\nAI Music Generator\nVideo-to-Audio\nVoice Changer\nVoice Cloner\nVoice Generator\nSUPPORT\nCommunity\nFAQ\nContact Us\nStatus\nSOCIAL\nsupport@magichour.ai\nBacked by\nCombinator\n\n\u00a9 2026 Magic Hour AI, Inc.\n\nInsufficient credits"
+      ],
+      "text_chunks": null,
+      "metadata": {
+        "title": "Free AI UGC Generator - Create UGC Ads and Videos Online | Magic Hour",
+        "description": "AI UGC generator to create UGC ads and video ads in minutes. Generate hooks and scripts, export ready-to-use videos. No filming, no actors - try free online.",
+        "og_images": [
+          "https://d28dkohlqf5vwj.cloudfront.net/products/ai-ugc-ad-generator/highlights/create-winning-ads.webp"
+        ],
+        "og_image": "https://d28dkohlqf5vwj.cloudfront.net/products/ai-ugc-ad-generator/highlights/create-winning-ads.webp"
+      },
+      "screenshot": "scraped_data/magichour.ai_20260529_023813/screenshots/products_ai-ugc-ad-generator_6ae4b6.png"
+    }
+  ],
+  "crawl_meta": {
+    "discovery_method": "mixed",
+    "candidates_considered": 107,
+    "pages_picked": [
+      "https://magichour.ai/pricing",
+      "https://magichour.ai/about",
+      "https://magichour.ai/faq",
+      "https://magichour.ai/products/ai-ugc-ad-generator"
+    ],
+    "llm_pick_latency_ms": 4822,
+    "sitemap_count": 107,
+    "nav_link_count": 57
+  },
+  "images": [
+    {
+      "url": "https://d28dkohlqf5vwj.cloudfront.net/landing/hero-subtitle.svg",
+      "filename": "hero-subtitle_35bceafa.svg",
+      "saved_path": "scraped_data/magichour.ai_20260529_023813/images/hero-subtitle_35bceafa.svg",
+      "size_bytes": 23617
+    },
+    {
+      "url": "https://d28dkohlqf5vwj.cloudfront.net/landing/hero-tools/text-to-video.webp",
+      "filename": "text-to-video_1af8073a.webp",
+      "saved_path": "scraped_data/magichour.ai_20260529_023813/images/text-to-video_1af8073a.webp",
+      "size_bytes": 7814
+    },
+    {
+      "url": "https://d28dkohlqf5vwj.cloudfront.net/landing/hero.avif",
+      "filename": "hero_88a201e9.avif",
+      "saved_path": "scraped_data/magichour.ai_20260529_023813/images/hero_88a201e9.avif",
+      "size_bytes": 63417
+    },
+    {
+      "url": "https://d28dkohlqf5vwj.cloudfront.net/landing/hero-time-effect.svg",
+      "filename": "hero-time-effect_d34b6343.svg",
+      "saved_path": "scraped_data/magichour.ai_20260529_023813/images/hero-time-effect_d34b6343.svg",
+      "size_bytes": 32981
+    },
+    {
+      "url": "https://d28dkohlqf5vwj.cloudfront.net/products/trusted-by/pittsburgh-pirates.avif",
+      "filename": "pittsburgh-pirates_36ed4582.avif",
+      "saved_path": "scraped_data/magichour.ai_20260529_023813/images/pittsburgh-pirates_36ed4582.avif",
+      "size_bytes": 1964
+    },
+    {
+      "url": "https://d28dkohlqf5vwj.cloudfront.net/about/founders-at-yc.webp",
+      "filename": "founders-at-yc_87b4c02f.webp",
+      "saved_path": "scraped_data/magichour.ai_20260529_023813/images/founders-at-yc_87b4c02f.webp",
+      "size_bytes": 147592
+    },
+    {
+      "url": "https://d28dkohlqf5vwj.cloudfront.net/products/general-testimonials/daniel-davidson.avif",
+      "filename": "daniel-davidson_208c41ea.avif",
+      "saved_path": "scraped_data/magichour.ai_20260529_023813/images/daniel-davidson_208c41ea.avif",
+      "size_bytes": 2096
+    },
+    {
+      "url": "https://d28dkohlqf5vwj.cloudfront.net/products/trusted-by/dallas-mavericks.avif",
+      "filename": "dallas-mavericks_ab83caeb.avif",
+      "saved_path": "scraped_data/magichour.ai_20260529_023813/images/dallas-mavericks_ab83caeb.avif",
+      "size_bytes": 6570
+    },
+    {
+      "url": "https://d28dkohlqf5vwj.cloudfront.net/products/ai-ugc-ad-generator/examples/ugc-ad5-car.webp",
+      "filename": "ugc-ad5-car_e708e20d.webp",
+      "saved_path": "scraped_data/magichour.ai_20260529_023813/images/ugc-ad5-car_e708e20d.webp",
+      "size_bytes": 16270
+    },
+    {
+      "url": "https://d28dkohlqf5vwj.cloudfront.net/products/general-testimonials/nasion-patriotik.avif",
+      "filename": "nasion-patriotik_9e2f50b5.avif",
+      "saved_path": "scraped_data/magichour.ai_20260529_023813/images/nasion-patriotik_9e2f50b5.avif",
+      "size_bytes": 2295
+    },
+    {
+      "url": "https://d28dkohlqf5vwj.cloudfront.net/projects/ai-talking-photo-landing-page.webp",
+      "filename": "ai-talking-photo-landing-page_58d58d1d.webp",
+      "saved_path": "scraped_data/magichour.ai_20260529_023813/images/ai-talking-photo-landing-page_58d58d1d.webp",
+      "size_bytes": 5554
+    },
+    {
+      "url": "https://d28dkohlqf5vwj.cloudfront.net/projects/ai-ugc-ad-generator-vertical-landing-page.avif",
+      "filename": "ai-ugc-ad-generator-vertical-landing-page_26b765fe.avif",
+      "saved_path": "scraped_data/magichour.ai_20260529_023813/images/ai-ugc-ad-generator-vertical-landing-page_26b765fe.avif",
+      "size_bytes": 7099
+    },
+    {
+      "url": "https://d28dkohlqf5vwj.cloudfront.net/landing/hero-tools/ai-image-editor.webp",
+      "filename": "ai-image-editor_0041ceed.webp",
+      "saved_path": "scraped_data/magichour.ai_20260529_023813/images/ai-image-editor_0041ceed.webp",
+      "size_bytes": 5610
+    },
+    {
+      "url": "https://d28dkohlqf5vwj.cloudfront.net/landing/hero-tools/animation.webp",
+      "filename": "animation_438c0224.webp",
+      "saved_path": "scraped_data/magichour.ai_20260529_023813/images/animation_438c0224.webp",
+      "size_bytes": 28662
+    },
+    {
+      "url": "https://d28dkohlqf5vwj.cloudfront.net/products/trusted-by/dazn.avif",
+      "filename": "dazn_18fafd1b.avif",
+      "saved_path": "scraped_data/magichour.ai_20260529_023813/images/dazn_18fafd1b.avif",
+      "size_bytes": 2990
+    },
+    {
+      "url": "https://d28dkohlqf5vwj.cloudfront.net/products/trusted-by/tala.avif",
+      "filename": "tala_adc3d7e9.avif",
+      "saved_path": "scraped_data/magichour.ai_20260529_023813/images/tala_adc3d7e9.avif",
+      "size_bytes": 3203
+    },
+    {
+      "url": "https://d28dkohlqf5vwj.cloudfront.net/landing/hero-tools/image-to-video.webp",
+      "filename": "image-to-video_9ec533ce.webp",
+      "saved_path": "scraped_data/magichour.ai_20260529_023813/images/image-to-video_9ec533ce.webp",
+      "size_bytes": 13632
+    },
+    {
+      "url": "https://d28dkohlqf5vwj.cloudfront.net/products/general-testimonials/lisa-li.avif",
+      "filename": "lisa-li_cba18d8e.avif",
+      "saved_path": "scraped_data/magichour.ai_20260529_023813/images/lisa-li_cba18d8e.avif",
+      "size_bytes": 3211
+    },
+    {
+      "url": "https://magichour.ai/apple-icon.png?apple-icon.06om6z0r_n4az.png",
+      "filename": "apple-icon_7a12dc9d.png",
+      "saved_path": "scraped_data/magichour.ai_20260529_023813/images/apple-icon_7a12dc9d.png",
+      "size_bytes": 5346
+    },
+    {
+      "url": "https://d28dkohlqf5vwj.cloudfront.net/products/trusted-by/meta.avif",
+      "filename": "meta_90efdd13.avif",
+      "saved_path": "scraped_data/magichour.ai_20260529_023813/images/meta_90efdd13.avif",
+      "size_bytes": 4437
+    },
+    {
+      "url": "https://d28dkohlqf5vwj.cloudfront.net/products/ai-ugc-ad-generator/examples/ugc-ad1-paint.webp",
+      "filename": "ugc-ad1-paint_4c4ad6b0.webp",
+      "saved_path": "scraped_data/magichour.ai_20260529_023813/images/ugc-ad1-paint_4c4ad6b0.webp",
+      "size_bytes": 20286
+    },
+    {
+      "url": "https://d28dkohlqf5vwj.cloudfront.net/products/ai-ugc-ad-generator/highlights/diverse-ai-actors.avif",
+      "filename": "diverse-ai-actors_1174d2fd.avif",
+      "saved_path": "scraped_data/magichour.ai_20260529_023813/images/diverse-ai-actors_1174d2fd.avif",
+      "size_bytes": 12999
+    },
+    {
+      "url": "https://d28dkohlqf5vwj.cloudfront.net/projects/video-upscaler-landing-page.webp",
+      "filename": "video-upscaler-landing-page_f71b473f.webp",
+      "saved_path": "scraped_data/magichour.ai_20260529_023813/images/video-upscaler-landing-page_f71b473f.webp",
+      "size_bytes": 5604
+    },
+    {
+      "url": "https://d28dkohlqf5vwj.cloudfront.net/products/general-testimonials/vishal-sankhat.avif",
+      "filename": "vishal-sankhat_09c4aca0.avif",
+      "saved_path": "scraped_data/magichour.ai_20260529_023813/images/vishal-sankhat_09c4aca0.avif",
+      "size_bytes": 3431
+    },
+    {
+      "url": "https://d28dkohlqf5vwj.cloudfront.net/landing/footer/footer-cta-1.avif",
+      "filename": "footer-cta-1_95721d65.avif",
+      "saved_path": "scraped_data/magichour.ai_20260529_023813/images/footer-cta-1_95721d65.avif",
+      "size_bytes": 8198
+    },
+    {
+      "url": "https://d28dkohlqf5vwj.cloudfront.net/about/founders-as-kids.webp",
+      "filename": "founders-as-kids_ec762638.webp",
+      "saved_path": "scraped_data/magichour.ai_20260529_023813/images/founders-as-kids_ec762638.webp",
+      "size_bytes": 41544
+    },
+    {
+      "url": "https://d28dkohlqf5vwj.cloudfront.net/about/light.webp",
+      "filename": "light_750ac1a1.webp",
+      "saved_path": "scraped_data/magichour.ai_20260529_023813/images/light_750ac1a1.webp",
+      "size_bytes": 16844
+    },
+    {
+      "url": "https://d28dkohlqf5vwj.cloudfront.net/landing/hero-tools/ai-headshot-generator.webp",
+      "filename": "ai-headshot-generator_66da080c.webp",
+      "saved_path": "scraped_data/magichour.ai_20260529_023813/images/ai-headshot-generator_66da080c.webp",
+      "size_bytes": 12912
+    },
+    {
+      "url": "https://d28dkohlqf5vwj.cloudfront.net/products/trusted-by/nba.avif",
+      "filename": "nba_a15fa7a6.avif",
+      "saved_path": "scraped_data/magichour.ai_20260529_023813/images/nba_a15fa7a6.avif",
+      "size_bytes": 3666
+    },
+    {
+      "url": "https://d28dkohlqf5vwj.cloudfront.net/products/trusted-by/dyson.avif",
+      "filename": "dyson_9f398e78.avif",
+      "saved_path": "scraped_data/magichour.ai_20260529_023813/images/dyson_9f398e78.avif",
+      "size_bytes": 3873
+    },
+    {
+      "url": "https://d28dkohlqf5vwj.cloudfront.net/landing/hero-tools/ai-image-upscaler.webp",
+      "filename": "ai-image-upscaler_ed814953.webp",
+      "saved_path": "scraped_data/magichour.ai_20260529_023813/images/ai-image-upscaler_ed814953.webp",
+      "size_bytes": 6144
+    },
+    {
+      "url": "https://d28dkohlqf5vwj.cloudfront.net/products/ai-ugc-ad-generator/examples/ugc-ad6-bags.webp",
+      "filename": "ugc-ad6-bags_7e3535bb.webp",
+      "saved_path": "scraped_data/magichour.ai_20260529_023813/images/ugc-ad6-bags_7e3535bb.webp",
+      "size_bytes": 25946
+    },
+    {
+      "url": "https://d28dkohlqf5vwj.cloudfront.net/projects/text-to-video-landing-page.webp",
+      "filename": "text-to-video-landing-page_1c354660.webp",
+      "saved_path": "scraped_data/magichour.ai_20260529_023813/images/text-to-video-landing-page_1c354660.webp",
+      "size_bytes": 6818
+    },
+    {
+      "url": "https://d28dkohlqf5vwj.cloudfront.net/products/trusted-by/deel.avif",
+      "filename": "deel_e55d616a.avif",
+      "saved_path": "scraped_data/magichour.ai_20260529_023813/images/deel_e55d616a.avif",
+      "size_bytes": 3553
+    },
+    {
+      "url": "https://d28dkohlqf5vwj.cloudfront.net/products/trusted-by/wsc-sports.avif",
+      "filename": "wsc-sports_3aab9dd8.avif",
+      "saved_path": "scraped_data/magichour.ai_20260529_023813/images/wsc-sports_3aab9dd8.avif",
+      "size_bytes": 4894
+    },
+    {
+      "url": "https://d28dkohlqf5vwj.cloudfront.net/projects/ai-ugc-ad-generator-vertical-landing-page.webp",
+      "filename": "ai-ugc-ad-generator-vertical-landing-page_fbcd3e63.webp",
+      "saved_path": "scraped_data/magichour.ai_20260529_023813/images/ai-ugc-ad-generator-vertical-landing-page_fbcd3e63.webp",
+      "size_bytes": 12626
+    },
+    {
+      "url": "https://d28dkohlqf5vwj.cloudfront.net/products/trusted-by/cisco.avif",
+      "filename": "cisco_fb825404.avif",
+      "saved_path": "scraped_data/magichour.ai_20260529_023813/images/cisco_fb825404.avif",
+      "size_bytes": 4070
+    },
+    {
+      "url": "https://d28dkohlqf5vwj.cloudfront.net/landing/hero-tools/lip-sync.webp",
+      "filename": "lip-sync_cf45c554.webp",
+      "saved_path": "scraped_data/magichour.ai_20260529_023813/images/lip-sync_cf45c554.webp",
+      "size_bytes": 8838
+    },
+    {
+      "url": "https://d28dkohlqf5vwj.cloudfront.net/products/ai-ugc-ad-generator/use-cases/ai-ugc-ad-generator-1.avif",
+      "filename": "ai-ugc-ad-generator-1_fb6ad3f7.avif",
+      "saved_path": "scraped_data/magichour.ai_20260529_023813/images/ai-ugc-ad-generator-1_fb6ad3f7.avif",
+      "size_bytes": 33105
+    },
+    {
+      "url": "https://d28dkohlqf5vwj.cloudfront.net/landing/hero-tools/video-to-video.webp",
+      "filename": "video-to-video_917bdcc4.webp",
+      "saved_path": "scraped_data/magichour.ai_20260529_023813/images/video-to-video_917bdcc4.webp",
+      "size_bytes": 18804
+    },
+    {
+      "url": "https://d28dkohlqf5vwj.cloudfront.net/how-to-section/upload-image.avif",
+      "filename": "upload-image_5e29f1c1.avif",
+      "saved_path": "scraped_data/magichour.ai_20260529_023813/images/upload-image_5e29f1c1.avif",
+      "size_bytes": 4212
+    },
+    {
+      "url": "https://d28dkohlqf5vwj.cloudfront.net/about/new-logo.webp",
+      "filename": "new-logo_7849e559.webp",
+      "saved_path": "scraped_data/magichour.ai_20260529_023813/images/new-logo_7849e559.webp",
+      "size_bytes": 23930
+    },
+    {
+      "url": "https://d28dkohlqf5vwj.cloudfront.net/projects/lip-sync-landing-page.webp",
+      "filename": "lip-sync-landing-page_bd99c3a3.webp",
+      "saved_path": "scraped_data/magichour.ai_20260529_023813/images/lip-sync-landing-page_bd99c3a3.webp",
+      "size_bytes": 8004
+    },
+    {
+      "url": "https://d28dkohlqf5vwj.cloudfront.net/products/trusted-by/shopify.avif",
+      "filename": "shopify_4109bb8a.avif",
+      "saved_path": "scraped_data/magichour.ai_20260529_023813/images/shopify_4109bb8a.avif",
+      "size_bytes": 15458
+    },
+    {
+      "url": "https://d28dkohlqf5vwj.cloudfront.net/projects/face-swap-landing-page.webp",
+      "filename": "face-swap-landing-page_21a37d54.webp",
+      "saved_path": "scraped_data/magichour.ai_20260529_023813/images/face-swap-landing-page_21a37d54.webp",
+      "size_bytes": 3038
+    },
+    {
+      "url": "https://d28dkohlqf5vwj.cloudfront.net/products/trusted-by/loreal.avif",
+      "filename": "loreal_d1ac0148.avif",
+      "saved_path": "scraped_data/magichour.ai_20260529_023813/images/loreal_d1ac0148.avif",
+      "size_bytes": 4382
+    },
+    {
+      "url": "https://d28dkohlqf5vwj.cloudfront.net/products/ai-ugc-ad-generator/highlights/create-winning-ads.avif",
+      "filename": "create-winning-ads_5cb13089.avif",
+      "saved_path": "scraped_data/magichour.ai_20260529_023813/images/create-winning-ads_5cb13089.avif",
+      "size_bytes": 11938
+    },
+    {
+      "url": "https://d28dkohlqf5vwj.cloudfront.net/landing/footer/footer-cta-3.avif",
+      "filename": "footer-cta-3_64d16714.avif",
+      "saved_path": "scraped_data/magichour.ai_20260529_023813/images/footer-cta-3_64d16714.avif",
+      "size_bytes": 7261
+    },
+    {
+      "url": "https://d28dkohlqf5vwj.cloudfront.net/products/ai-ugc-ad-generator/examples/ugc-ad2-dress.webp",
+      "filename": "ugc-ad2-dress_7420e90d.webp",
+      "saved_path": "scraped_data/magichour.ai_20260529_023813/images/ugc-ad2-dress_7420e90d.webp",
+      "size_bytes": 21744
+    },
+    {
+      "url": "https://d28dkohlqf5vwj.cloudfront.net/products/ai-ugc-ad-generator/highlights/unlimited-creative-testing.avif",
+      "filename": "unlimited-creative-testing_a6805c18.avif",
+      "saved_path": "scraped_data/magichour.ai_20260529_023813/images/unlimited-creative-testing_a6805c18.avif",
+      "size_bytes": 2419
+    },
+    {
+      "url": "https://d28dkohlqf5vwj.cloudfront.net/landing/footer/footer-cta-2.avif",
+      "filename": "footer-cta-2_c0639049.avif",
+      "saved_path": "scraped_data/magichour.ai_20260529_023813/images/footer-cta-2_c0639049.avif",
+      "size_bytes": 7087
+    },
+    {
+      "url": "https://d28dkohlqf5vwj.cloudfront.net/about/mission.webp",
+      "filename": "mission_0d27d885.webp",
+      "saved_path": "scraped_data/magichour.ai_20260529_023813/images/mission_0d27d885.webp",
+      "size_bytes": 42096
+    },
+    {
+      "url": "https://d28dkohlqf5vwj.cloudfront.net/products/trusted-by/puma.avif",
+      "filename": "puma_d0dbebb2.avif",
+      "saved_path": "scraped_data/magichour.ai_20260529_023813/images/puma_d0dbebb2.avif",
+      "size_bytes": 2883
+    },
+    {
+      "url": "https://d28dkohlqf5vwj.cloudfront.net/how-to-section/generate.avif",
+      "filename": "generate_cae2f6ec.avif",
+      "saved_path": "scraped_data/magichour.ai_20260529_023813/images/generate_cae2f6ec.avif",
+      "size_bytes": 34352
+    },
+    {
+      "url": "https://d28dkohlqf5vwj.cloudfront.net/products/ai-talking-photo/highlights/localize-once.avif",
+      "filename": "localize-once_624dc50e.avif",
+      "saved_path": "scraped_data/magichour.ai_20260529_023813/images/localize-once_624dc50e.avif",
+      "size_bytes": 1510
+    },
+    {
+      "url": "https://d28dkohlqf5vwj.cloudfront.net/products/ai-ugc-ad-generator/examples/ugc-ad3-ring.webp",
+      "filename": "ugc-ad3-ring_61a1463f.webp",
+      "saved_path": "scraped_data/magichour.ai_20260529_023813/images/ugc-ad3-ring_61a1463f.webp",
+      "size_bytes": 15018
+    },
+    {
+      "url": "https://d28dkohlqf5vwj.cloudfront.net/how-to-section/ugc-prompt.avif",
+      "filename": "ugc-prompt_6e2e2a2f.avif",
+      "saved_path": "scraped_data/magichour.ai_20260529_023813/images/ugc-prompt_6e2e2a2f.avif",
+      "size_bytes": 9569
+    },
+    {
+      "url": "https://d28dkohlqf5vwj.cloudfront.net/landing/hero-tools/talking-photo.webp",
+      "filename": "talking-photo_68efe532.webp",
+      "saved_path": "scraped_data/magichour.ai_20260529_023813/images/talking-photo_68efe532.webp",
+      "size_bytes": 6964
+    },
+    {
+      "url": "https://d28dkohlqf5vwj.cloudfront.net/landing/hero-tools/face-swap-video.webp",
+      "filename": "face-swap-video_f60c153f.webp",
+      "saved_path": "scraped_data/magichour.ai_20260529_023813/images/face-swap-video_f60c153f.webp",
+      "size_bytes": 8090
+    },
+    {
+      "url": "https://d28dkohlqf5vwj.cloudfront.net/products/ai-ugc-ad-generator/examples/ugc-ad4-poster.webp",
+      "filename": "ugc-ad4-poster_ca875619.webp",
+      "saved_path": "scraped_data/magichour.ai_20260529_023813/images/ugc-ad4-poster_ca875619.webp",
+      "size_bytes": 25784
+    },
+    {
+      "url": "https://d28dkohlqf5vwj.cloudfront.net/products/trusted-by/decathlon.avif",
+      "filename": "decathlon_23fb5cbc.avif",
+      "saved_path": "scraped_data/magichour.ai_20260529_023813/images/decathlon_23fb5cbc.avif",
+      "size_bytes": 3600
+    },
+    {
+      "url": "https://d28dkohlqf5vwj.cloudfront.net/projects/image-to-video-landing-page.webp",
+      "filename": "image-to-video-landing-page_eca13e1f.webp",
+      "saved_path": "scraped_data/magichour.ai_20260529_023813/images/image-to-video-landing-page_eca13e1f.webp",
+      "size_bytes": 7618
+    }
+  ],
+  "videos": [
+    {
+      "url": "https://d28dkohlqf5vwj.cloudfront.net/products/ai-ugc-ad-generator/examples/ugc-ad2-dress.webm",
+      "filename": "ugc-ad2-dress_1eeb147e.webm",
+      "saved_path": "scraped_data/magichour.ai_20260529_023813/videos/ugc-ad2-dress_1eeb147e.webm",
+      "size_bytes": 759137
+    },
+    {
+      "url": "https://d28dkohlqf5vwj.cloudfront.net/projects/face-swap-landing-page.webm",
+      "filename": "face-swap-landing-page_fe8b0526.webm",
+      "saved_path": "scraped_data/magichour.ai_20260529_023813/videos/face-swap-landing-page_fe8b0526.webm",
+      "size_bytes": 86224
+    },
+    {
+      "url": "https://d28dkohlqf5vwj.cloudfront.net/projects/image-to-video-landing-page.webm",
+      "filename": "image-to-video-landing-page_b5929756.webm",
+      "saved_path": "scraped_data/magichour.ai_20260529_023813/videos/image-to-video-landing-page_b5929756.webm",
+      "size_bytes": 607927
+    },
+    {
+      "url": "https://d28dkohlqf5vwj.cloudfront.net/projects/ai-ugc-ad-generator-vertical-landing-page.webm",
+      "filename": "ai-ugc-ad-generator-vertical-landing-page_14e864fb.webm",
+      "saved_path": "scraped_data/magichour.ai_20260529_023813/videos/ai-ugc-ad-generator-vertical-landing-page_14e864fb.webm",
+      "size_bytes": 361429
+    },
+    {
+      "url": "https://d28dkohlqf5vwj.cloudfront.net/projects/text-to-video-landing-page.webm",
+      "filename": "text-to-video-landing-page_6304bf4a.webm",
+      "saved_path": "scraped_data/magichour.ai_20260529_023813/videos/text-to-video-landing-page_6304bf4a.webm",
+      "size_bytes": 152112
+    },
+    {
+      "url": "https://d28dkohlqf5vwj.cloudfront.net/products/ai-ugc-ad-generator/examples/ugc-ad4-poster.webm",
+      "filename": "ugc-ad4-poster_c8bc05ec.webm",
+      "saved_path": "scraped_data/magichour.ai_20260529_023813/videos/ugc-ad4-poster_c8bc05ec.webm",
+      "size_bytes": 732147
+    },
+    {
+      "url": "https://d28dkohlqf5vwj.cloudfront.net/products/ai-ugc-ad-generator/examples/ugc-ad1-paint.webm",
+      "filename": "ugc-ad1-paint_c830d78c.webm",
+      "saved_path": "scraped_data/magichour.ai_20260529_023813/videos/ugc-ad1-paint_c830d78c.webm",
+      "size_bytes": 686743
+    },
+    {
+      "url": "https://d28dkohlqf5vwj.cloudfront.net/projects/ai-talking-photo-landing-page.webm",
+      "filename": "ai-talking-photo-landing-page_8973c327.webm",
+      "saved_path": "scraped_data/magichour.ai_20260529_023813/videos/ai-talking-photo-landing-page_8973c327.webm",
+      "size_bytes": 92885
+    },
+    {
+      "url": "https://d28dkohlqf5vwj.cloudfront.net/products/ai-ugc-ad-generator/examples/ugc-ad6-bags.webm",
+      "filename": "ugc-ad6-bags_bc50c32f.webm",
+      "saved_path": "scraped_data/magichour.ai_20260529_023813/videos/ugc-ad6-bags_bc50c32f.webm",
+      "size_bytes": 770517
+    },
+    {
+      "url": "https://d28dkohlqf5vwj.cloudfront.net/products/ai-ugc-ad-generator/examples/ugc-ad3-ring.webm",
+      "filename": "ugc-ad3-ring_c2e719b0.webm",
+      "saved_path": "scraped_data/magichour.ai_20260529_023813/videos/ugc-ad3-ring_c2e719b0.webm",
+      "size_bytes": 666876
+    },
+    {
+      "url": "https://d28dkohlqf5vwj.cloudfront.net/projects/video-upscaler-landing-page.webm",
+      "filename": "video-upscaler-landing-page_548aa9f3.webm",
+      "saved_path": "scraped_data/magichour.ai_20260529_023813/videos/video-upscaler-landing-page_548aa9f3.webm",
+      "size_bytes": 372402
+    },
+    {
+      "url": "https://d28dkohlqf5vwj.cloudfront.net/projects/lip-sync-landing-page.webm",
+      "filename": "lip-sync-landing-page_598404a5.webm",
+      "saved_path": "scraped_data/magichour.ai_20260529_023813/videos/lip-sync-landing-page_598404a5.webm",
+      "size_bytes": 235596
+    },
+    {
+      "url": "https://d28dkohlqf5vwj.cloudfront.net/products/ai-ugc-ad-generator/examples/ugc-ad5-car.webm",
+      "filename": "ugc-ad5-car_1c545402.webm",
+      "saved_path": "scraped_data/magichour.ai_20260529_023813/videos/ugc-ad5-car_1c545402.webm",
+      "size_bytes": 430733
+    }
+  ],
+  "images_count": 62,
+  "videos_count": 13,
+  "total_count": 75,
+  "asset_candidates": {
+    "favicon": "https://magichour.ai/favicon-32x32.png",
+    "apple_touch_icon": "https://magichour.ai/apple-icon.png?apple-icon.06om6z0r_n4az.png",
+    "og_image": "https://magichour.ai/logo-social.png",
+    "twitter_image": "https://magichour.ai/logo-social.png",
+    "above_fold_top": [
+      "https://d28dkohlqf5vwj.cloudfront.net/landing/footer/footer-cta-1.avif",
+      "https://d28dkohlqf5vwj.cloudfront.net/landing/footer/footer-cta-3.avif",
+      "https://d28dkohlqf5vwj.cloudfront.net/landing/footer/footer-cta-2.avif"
+    ],
+    "logo_url_matches": [],
+    "hero_url_matches": [
+      "https://d28dkohlqf5vwj.cloudfront.net/landing/hero-subtitle.svg",
+      "https://d28dkohlqf5vwj.cloudfront.net/landing/hero.avif",
+      "https://d28dkohlqf5vwj.cloudfront.net/landing/hero-time-effect.svg"
+    ]
+  },
+  "screenshots_dir": "scraped_data/magichour.ai_20260529_023813/screenshots",
+  "dom_extras": {
+    "language": "en",
+    "canonical_url": "https://magichour.ai/",
+    "viewport_meta": "width=device-width, initial-scale=1",
+    "favicon_url": "https://magichour.ai/favicon-32x32.png",
+    "apple_touch_icon": "https://magichour.ai/apple-icon.png?apple-icon.06om6z0r_n4az.png",
+    "font_families": {
+      "body": "sans-serif",
+      "h1": "sans-serif",
+      "h2": "sans-serif",
+      "p": "sans-serif"
+    },
+    "og_data": {
+      "title": "AI Video Generator, Image Generator & Editor - 100+ Free Online AI Tools | Magic Hour",
+      "description": "100+ AI tools for video and images in one place: face swap, lip sync, talking photos, templates, generation, and editing. Credits roll over; refunds on errors. Try free without sign-up. Web, mobile, and API. Trusted by 3M+ creators.",
+      "url": "https://magichour.ai",
+      "site_name": "Magic Hour AI",
+      "image": "https://magichour.ai/logo-social.png",
+      "type": "website"
+    },
+    "twitter_data": {
+      "card": "summary_large_image",
+      "site": "@magichourai",
+      "creator": "@magichourai",
+      "title": "AI Video Generator, Image Generator & Editor - 100+ Free Online AI Tools | Magic Hour",
+      "description": "100+ AI tools for video and images in one place: face swap, lip sync, talking photos, templates, generation, and editing. Credits roll over; refunds on errors. Try free without sign-up. Web, mobile, and API. Trusted by 3M+ creators.",
+      "image": "https://magichour.ai/logo-social.png"
+    },
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What is Magic Hour?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Magic Hour is a free online AI video generator and AI image editor that helps creators, marketers, and developers produce professional-quality content in seconds. With 100+ AI-powered tools, including face swap, image-to-video, AI image editor, lip sync, and more, you can create studio-grade videos and images entirely in your browser."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is Magic Hour free to use?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. Magic Hour offers free daily credits that let you create AI videos and edit images at no cost. You can access popular tools like face swap, AI image editor, lip sync, talking photo, AI GIF generator, and AI image upscaler without a credit card. Paid plans are available for creators and teams who need higher volume or premium features."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How does the AI video generator work?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Magic Hour's AI video generator supports multiple workflows: type a text prompt to generate a video from scratch (text-to-video), upload a photo to animate it (image-to-video), restyle existing footage (video-to-video), or create stop-motion animations. Each tool runs entirely in your browser and most videos are ready within seconds."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can I generate images with AI on Magic Hour?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Absolutely. Magic Hour's AI image generator creates original images from text prompts across a wide range of styles: photorealistic, illustration, anime, concept art, and more. You can also use the AI image editor to modify existing images using natural-language instructions."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How does the face swap video tool work?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Magic Hour's AI face swap lets you replace a face in any video with another face using just a single reference photo. The AI automatically handles alignment, skin tone matching, lighting, and expression tracking to produce realistic results. You can also swap faces in photos, GIFs, and multi-person group shots, all for free."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What AI tools does Magic Hour offer beyond video and image generation?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Beyond the AI video generator and AI image generator, Magic Hour includes: lip sync (sync any video with audio), talking photo (make still images speak), AI headshot generator, AI image upscaler, AI clothes changer, AI GIF generator, voice cloner, voice generator, and more: over 100 tools in total."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Does Magic Hour have an API for developers?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. Magic Hour provides a REST API with official SDKs for Python, Node.js, Go, and Rust. You can programmatically generate videos, images, and audio, from face swaps and text-to-video to image upscaling and voice cloning. Usage-based pricing and a 99.9% uptime SLA make it production-ready at any scale."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Do I need to download any software to use Magic Hour?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "No. Magic Hour runs entirely in your web browser. There is nothing to install or configure. Sign up, choose a tool, and start creating immediately. Your projects are saved in the cloud, so you can access them from any device."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What makes Magic Hour different from other AI video generators?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Magic Hour combines over 100 AI video, image, and audio tools in one unified platform. Most competitors offer only a handful. It's trusted by 3M+ creators and 2K+ teams, backed by Y Combinator, and used by businesses worldwide. With free daily credits, browser-based access, 10,000+ templates, and a production-ready API, Magic Hour is built for both casual creators and enterprise workflows."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can I use Magic Hour for commercial projects?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. Content you create with Magic Hour can be used in commercial projects, marketing campaigns, social media, advertisements, and more. Paid plans provide additional credits and premium features for professional and team use."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How does the AI image generator work?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Magic Hour's AI image generator creates original images from text prompts using state-of-the-art diffusion models. Describe what you want: a product photo, character illustration, social media graphic, or abstract artwork. The AI produces it in seconds. Choose from 400+ styles including photorealistic, anime, and concept art."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What is the best free AI photo editor online?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Magic Hour offers a free AI photo editor that lets you edit images using natural-language prompts instead of complex menus. Remove objects, swap backgrounds, adjust lighting, enhance skin detail, or add creative effects. It works on any device in your browser, requires no sign up to try, and is trusted by 3M+ creators worldwide."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can I create AI videos from text prompts on Magic Hour?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. Magic Hour's text-to-video AI generator converts written scene descriptions into polished video clips. Type a prompt and the AI produces a video in seconds. Beyond text-to-video, Magic Hour also supports image-to-video, face swap video, lip sync, and 100+ other AI video tools, all free to try with daily credits."
+            }
+          }
+        ]
+      },
+      [
+        {
+          "@context": "https://schema.org",
+          "@type": "ImageObject",
+          "@id": "https://magichour.ai#logo",
+          "url": "https://magichour.ai/logo.png"
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "Organization",
+          "@id": "https://magichour.ai#organization",
+          "name": "Magic Hour",
+          "alternateName": "Magic Hour AI",
+          "legalName": "Magic Hour AI, Inc.",
+          "url": "https://magichour.ai",
+          "logo": {
+            "@id": "https://magichour.ai#logo"
+          },
+          "description": "The all-in-one virtual studio for creating, editing, and enhancing videos and images with cutting-edge generative AI\u2014right in your browser.",
+          "email": "support@magichour.ai",
+          "foundingDate": "2023",
+          "founders": [
+            {
+              "@type": "Person",
+              "name": "Runbo Li"
+            },
+            {
+              "@type": "Person",
+              "name": "David Hu"
+            }
+          ],
+          "sameAs": [
+            "https://www.instagram.com/magichourai",
+            "https://www.tiktok.com/@magichourai",
+            "https://www.facebook.com/magichourai",
+            "https://www.youtube.com/@magichourai",
+            "https://www.linkedin.com/company/magichour/",
+            "https://x.com/magichourai",
+            "https://www.producthunt.com/products/magic-hour-2",
+            "https://www.ycombinator.com/companies/magic-hour"
+          ]
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "WebSite",
+          "@id": "https://magichour.ai#website",
+          "name": "Magic Hour",
+          "url": "https://magichour.ai",
+          "publisher": {
+            "@id": "https://magichour.ai#organization"
+          }
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "WebPage",
+          "@id": "https://magichour.ai#webpage",
+          "name": "Magic Hour",
+          "url": "https://magichour.ai",
+          "isPartOf": {
+            "@id": "https://magichour.ai#website"
+          },
+          "about": {
+            "@id": "https://magichour.ai#organization"
+          },
+          "primaryImageOfPage": {
+            "@id": "https://magichour.ai#logo"
+          }
+        }
+      ]
+    ]
+  },
+  "brand_data": {
+    "company_name": "Magic Hour",
+    "what_they_do": "All-in-one AI platform for creating, editing, enhancing, and generating videos, images, and audio in the browser, with an API for developers.",
+    "tagline": "Create AI Videos & Images with 100+ Free Tools",
+    "hero_copy": "Create AI Videos & Images\nwith 100+ Free Tools",
+    "industry": "AI video tools / AI image tools / AI audio tools",
+    "products_services": [
+      {
+        "name": "AI Video Generator",
+        "description": "Hub for video tools including text-to-video, image-to-video, face swap, animation, and more.",
+        "pricing": "Free to try; paid plans and credit packs available"
+      },
+      {
+        "name": "AI Image Generator",
+        "description": "Generates original images from text prompts across 400+ styles.",
+        "pricing": "Free to try; paid plans and credit packs available"
+      },
+      {
+        "name": "AI Image Editor",
+        "description": "Edit images with natural-language prompts, including removing objects, swapping backgrounds, and adjusting lighting.",
+        "pricing": "Free to try; paid plans and credit packs available"
+      },
+      {
+        "name": "Face Swap Video",
+        "description": "Replace faces in videos with a single reference image; also supports photos and GIFs.",
+        "pricing": "Free to try; paid plans and credit packs available"
+      },
+      {
+        "name": "Lip Sync",
+        "description": "Synchronize a face in video with audio for dubbing, localization, and lip-sync content.",
+        "pricing": "Free to try; paid plans and credit packs available"
+      },
+      {
+        "name": "Talking Photo",
+        "description": "Turn still portraits into speaking videos with synced lip movements and expressions.",
+        "pricing": "Free to try; paid plans and credit packs available"
+      },
+      {
+        "name": "AI UGC Ad Generator",
+        "description": "Generate UGC-style ad videos from an actor, first frame, and script.",
+        "pricing": "Paid subscription required for access"
+      },
+      {
+        "name": "AI Clothes Changer",
+        "description": "Virtually swap clothing styles in photos for fashion and ecommerce use.",
+        "pricing": "Free to try; paid plans and credit packs available"
+      },
+      {
+        "name": "AI Image Upscaler",
+        "description": "Increase image resolution and restore detail up to 4x on paid plans.",
+        "pricing": "Free 2x; 4x requires paid plan"
+      },
+      {
+        "name": "AI Headshot Generator",
+        "description": "Generate professional headshots from a selfie.",
+        "pricing": "Free to try; paid plans and credit packs available"
+      },
+      {
+        "name": "AI GIF Generator",
+        "description": "Create GIFs from text prompts or images.",
+        "pricing": "Free to try; paid plans and credit packs available"
+      },
+      {
+        "name": "Voice Generator",
+        "description": "Generate voice audio as part of the AI audio toolset.",
+        "pricing": "Pricing not specified"
+      },
+      {
+        "name": "Voice Cloner",
+        "description": "Clone voices for audio generation and dubbing.",
+        "pricing": "Pricing not specified"
+      }
+    ],
+    "key_features": [
+      "100+ AI tools in one platform",
+      "Runs entirely in the browser; no install required",
+      "Free daily credits and no credit card required to start",
+      "Credits roll over with no expiration",
+      "Refunds on errors and one-time refund policy within 7 days / under 500 credits",
+      "REST API with SDKs for Python, Node.js, Go, and Rust",
+      "99.9% uptime SLA for API",
+      "Watermark-free exports on paid plans",
+      "Commercial rights for paid users",
+      "10,000+ templates",
+      "Priority queue and priority support",
+      "Projects saved in the cloud and accessible from any device",
+      "Supports web, mobile, and API workflows"
+    ],
+    "pricing_summary": "Free Basic plan with 400 credits; paid annual plans include Creator (\u20ac8.67/mo billed annually, \u20ac104/year), Pro (\u20ac23/mo billed annually, \u20ac276/year), and Business (\u20ac56/mo billed annually, \u20ac672/year). Credit packs are also available and do not expire.",
+    "promotional_info": {
+      "original_price": null,
+      "promo_price": null,
+      "discount_text": "Annual plans save 33%",
+      "urgency_text": "Free to try; no credit card required",
+      "valid_until": null
+    },
+    "target_customer": "Creators, marketers, developers, teams, agencies, e-commerce brands, educators, and students",
+    "value_prop": "A unified, browser-based creative studio for generating and editing videos, images, and audio faster and more affordably than using multiple separate AI apps.",
+    "tone_voice": "Friendly, practical, creator-focused, product-led",
+    "mood_descriptors": [
+      "energetic",
+      "professional",
+      "creative",
+      "fast",
+      "confident"
+    ],
+    "brand_origin": "Founded in 2023 by Runbo Li and David Hu. Inspired by helping Runbo's parents create videos for their hot pot business; early versions reached over 200 million people on social.",
+    "trust_signals": [
+      "Trusted by 3M+ creators",
+      "Trusted by 2K+ teams",
+      "3,397,823+ creators",
+      "Backed by Y Combinator",
+      "Founded in 2023",
+      "20M+ AI videos generated",
+      "500K+ creators in last 30 days",
+      "99.9% uptime SLA"
+    ],
+    "testimonials": [
+      {
+        "quote": "Magic Hour is the fastest way I've found to go from an idea to a polished image or video. It's simple, the results are consistent, and it's easy to iterate. It feels like a real creator tool.",
+        "attribution": "Vishal Sankhat, Instagram Creator (534K followers)"
+      },
+      {
+        "quote": "Magic Hour is a powerful AI tool for creating video, photo, and even voice content all in one place. Being able to generate videos up to 60 seconds from a single prompt is something most similar platforms still don't offer.",
+        "attribution": "Daniel Davidson, Youtube Creator (194k subscribers)"
+      },
+      {
+        "quote": "Magic Hour is one of the few AI tools I genuinely trust. Most tools are hit or miss, but Magic Hour feels reliable. I know what I'm going to get, which makes it easy to use regularly for social content.",
+        "attribution": "Nasion Patriotik, Social Media Creator (1.8M followers)"
+      },
+      {
+        "quote": "Most AI tools look impressive at first, but they're hard to rely on once you use them regularly. Magic Hour has been different for me. It's easy to use, the results are consistent, and I can get something polished without spending time fixing or redoing things. It fits naturally into how I create, which is why I keep coming back to it.",
+        "attribution": "Lisa Li, Multimedia Designer at Rakuten Viki"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "What is Magic Hour?",
+        "answer": "Magic Hour is a free online AI video generator and AI image editor that helps creators, marketers, and developers produce professional-quality content in seconds. With 100+ AI-powered tools, including face swap, image-to-video, AI image editor, lip sync, and more, you can create studio-grade videos and images entirely in your browser."
+      },
+      {
+        "question": "Is Magic Hour free to use?",
+        "answer": "Yes. Magic Hour offers free daily credits that let you create AI videos and edit images at no cost. You can access popular tools like face swap, AI image editor, lip sync, talking photo, AI GIF generator, and AI image upscaler without a credit card. Paid plans are available for creators and teams who need higher volume or premium features."
+      },
+      {
+        "question": "How does the AI video generator work?",
+        "answer": "Magic Hour's AI video generator supports multiple workflows: type a text prompt to generate a video from scratch (text-to-video), upload a photo to animate it (image-to-video), restyle existing footage (video-to-video), or create stop-motion animations. Each tool runs entirely in your browser and most videos are ready within seconds."
+      },
+      {
+        "question": "Can I generate images with AI on Magic Hour?",
+        "answer": "Absolutely. Magic Hour's AI image generator creates original images from text prompts across a wide range of styles: photorealistic, illustration, anime, concept art, and more. You can also use the AI image editor to modify existing images using natural-language instructions."
+      },
+      {
+        "question": "How does the face swap video tool work?",
+        "answer": "Magic Hour's AI face swap lets you replace a face in any video with another face using just a single reference photo. The AI automatically handles alignment, skin tone matching, lighting, and expression tracking to produce realistic results. You can also swap faces in photos, GIFs, and multi-person group shots, all for free."
+      },
+      {
+        "question": "What AI tools does Magic Hour offer beyond video and image generation?",
+        "answer": "Beyond the AI video generator and AI image generator, Magic Hour includes: lip sync (sync any video with audio), talking photo (make still images speak), AI headshot generator, AI image upscaler, AI clothes changer, AI GIF generator, voice cloner, voice generator, and more: over 100 tools in total."
+      },
+      {
+        "question": "Does Magic Hour have an API for developers?",
+        "answer": "Yes. Magic Hour provides a REST API with official SDKs for Python, Node.js, Go, and Rust. You can programmatically generate videos, images, and audio, from face swaps and text-to-video to image upscaling and voice cloning. Usage-based pricing and a 99.9% uptime SLA make it production-ready at any scale."
+      },
+      {
+        "question": "Do I need to download any software to use Magic Hour?",
+        "answer": "No. Magic Hour runs entirely in your web browser. There is nothing to install or configure. Sign up, choose a tool, and start creating immediately. Your projects are saved in the cloud, so you can access them from any device."
+      },
+      {
+        "question": "What makes Magic Hour different from other AI video generators?",
+        "answer": "Magic Hour combines over 100 AI video, image, and audio tools in one unified platform. Most competitors offer only a handful. It's trusted by 3M+ creators and 2K+ teams, backed by Y Combinator, and used by businesses worldwide. With free daily credits, browser-based access, 10,000+ templates, and a production-ready API, Magic Hour is built for both casual creators and enterprise workflows."
+      },
+      {
+        "question": "Can I use Magic Hour for commercial projects?",
+        "answer": "Yes. Content you create with Magic Hour can be used in commercial projects, marketing campaigns, social media, advertisements, and more. Paid plans provide additional credits and premium features for professional and team use."
+      },
+      {
+        "question": "How does the AI image generator work?",
+        "answer": "Magic Hour's AI image generator creates original images from text prompts using state-of-the-art diffusion models. Describe what you want: a product photo, character illustration, social media graphic, or abstract artwork. The AI produces it in seconds. Choose from 400+ styles including photorealistic, anime, and concept art."
+      },
+      {
+        "question": "What is the best free AI photo editor online?",
+        "answer": "Magic Hour offers a free AI photo editor that lets you edit images using natural-language prompts instead of complex menus. Remove objects, swap backgrounds, adjust lighting, enhance skin detail, or add creative effects. It works on any device in your browser, requires no sign up to try, and is trusted by 3M+ creators worldwide."
+      },
+      {
+        "question": "Can I create AI videos from text prompts on Magic Hour?",
+        "answer": "Yes. Magic Hour's text-to-video AI generator converts written scene descriptions into polished video clips. Type a prompt and the AI produces a video in seconds. Beyond text-to-video, Magic Hour also supports image-to-video, face swap video, lip sync, and 100+ other AI video tools, all free to try with daily credits."
+      }
+    ],
+    "common_phrases": [
+      "It's Free",
+      "Trusted by 3M+ creators",
+      "100+ Free Tools",
+      "Create AI Videos & Images",
+      "Start Creating Free",
+      "No credit card required",
+      "No sign up required",
+      "No download",
+      "Free daily credits",
+      "Credits roll over",
+      "One Plan, Every Tool",
+      "From Idea to Final File",
+      "Step Into the Magic"
+    ],
+    "competitors_mentioned": [
+      "Photoshop",
+      "Kling",
+      "Veo",
+      "Sora",
+      "LTX-2",
+      "Seedance",
+      "Stable Diffusion"
+    ],
+    "calls_to_action": [
+      "Start Creating Free",
+      "Create for Free Now",
+      "Generate Your First Video",
+      "Join the Discord",
+      "Get Creator",
+      "Get Pro",
+      "Get Business",
+      "Create Your First UGC Ad",
+      "Create UGC Ads Now"
+    ]
+  },
+  "brand_data_meta": {
+    "model": "gpt-5.4-mini",
+    "latency_ms": 16086,
+    "input_tokens": 23468,
+    "output_tokens": 2434
+  },
+  "visual_data": {
+    "visual_style_notes": "Dark, cinematic AI-tool branding with a minimalist premium feel. Heavy use of black space, soft navy gradients, and a vivid neon-purple CTA creates strong contrast. Visuals lean futuristic and slightly magical, with glossy product-card imagery and subtle glow effects. The brand feels like a high-end creative AI platform rather than a playful consumer app.",
+    "color_palette": [
+      "#000000",
+      "#121321",
+      "#1E1F31",
+      "#5D14FF",
+      "#FFFFFF",
+      "#A0A0A6",
+      "#D8B97A"
+    ],
+    "primary_colors": [
+      "#000000",
+      "#121321",
+      "#5D14FF"
+    ],
+    "accent_colors": [
+      "#1E1F31",
+      "#FFFFFF",
+      "#A0A0A6",
+      "#D8B97A"
+    ],
+    "tone_descriptors_visual": [
+      "premium",
+      "futuristic",
+      "cinematic",
+      "minimal",
+      "high-contrast",
+      "mysterious",
+      "sleek",
+      "magical"
+    ],
+    "layout_style": "Sparse hero-led layout with large negative space, right-aligned feature imagery, centered or offset headline blocks, and a dense multi-column footer. Navigation is clean and top-aligned; content uses strong hierarchy, oversized typography, and isolated CTA placement.",
+    "font_style": "modern sans-serif",
+    "imagery_style": "photo-heavy with glossy card/mockup composites and occasional surreal or AI-generated scene imagery",
+    "energy_level": "balanced"
+  },
+  "visual_data_meta": {
+    "model": "gpt-5.4-mini",
+    "latency_ms": 3724,
+    "input_tokens": 5883,
+    "output_tokens": 274,
+    "screenshots_used": 5
+  },
+  "timings": {
+    "homepage_total_ms": 11487,
+    "discovery_ms": 4825,
+    "secondary_pages_ms": 28424,
+    "media_drain_ms": 3,
+    "brand_llm_ms": 16086,
+    "visual_llm_ms": 3724,
+    "total_ms": 63018,
+    "per_page_load_ms": {
+      "https://magichour.ai": 8846,
+      "https://magichour.ai/pricing": 27022,
+      "https://magichour.ai/about": 19120,
+      "https://magichour.ai/faq": 24981,
+      "https://magichour.ai/products/ai-ugc-ad-generator": 23441
+    }
+  }
+}
